@@ -2,7 +2,7 @@
 
 
 
-// Create a class ChangeToLowerCase to change the text to lower cace
+// Create a class ChangeToLowerCase to change the text to lower case
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class ChangeToLowerCase{
 	
 	String string = sc.next();
 	
-	String stringUpper = string.toUpperCase();
+	String stringUpper = string.toLowerCase();
 	String toLowerCase = convertToLowerCase(string);
 	
 	boolean checkString = isStringSame(toLowerCase, stringUpper);
@@ -32,9 +32,9 @@ public class ChangeToLowerCase{
 	
 		String toLowerCase = "";
 		for(int i=0 ; i<string.length(); i++){
-			if(string.charAt(i) >= 'a' && string.charAt(i) <= 'z'){
+			if(string.charAt(i) >= 'A' && string.charAt(i) <= 'Z'){
 			char ch = string.charAt(i);
-			toLowerCase += (char)(ch - 32);
+			toLowerCase += (char)(ch + 32);
 			
 			} else {
 			
