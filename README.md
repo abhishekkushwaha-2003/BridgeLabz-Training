@@ -54,4 +54,24 @@ BridgeLabz-Training/
 
 ---
 
+## 🗓 Day 4 – Control Flow & Logical Constructs  
+**(Date: 18-Dec-2025)**
+
+- Studied logical constructs in Java:
+- Java Control Flows
+- Java boolean Data Type
+- Boolean Expressions
+- Logical Operators
+- if Conditional Statement along with else if and final else statement
+- Java loops - for and while
+- Java break and continue statement
+- Java switch Statement
+- BridgeLabz Guidelines for Trainees 
+   
+🔗 *Code Link:*  
+👉 [Day 4 – Control Flow](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
+
+---
+
+
 
