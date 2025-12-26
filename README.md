@@ -73,5 +73,23 @@ BridgeLabz-Training/
 
 ---
 
+## 🗓 Day 5 – Arrays & Basic Problem Solving  
+**(Date: 19-Dec-2025)**
+
+- Basics of Array
+- Create an Array Access an Array
+- Accessing using for loop
+- Modifying an Array
+- Using length property of array
+- Java Multi-demensional Array
+- Java 2 Dimensional Array (Matrix)
+- Accessing, finding size, etc of Multi-Dimensional Array
+- Using Java System error() message and exit() method
+
+🔗 *Code Link:*  
+👉 [Day 5 – Arrays](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+
+---
+
 
 
