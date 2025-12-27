@@ -93,7 +93,7 @@ BridgeLabz-Training/
 
 ---
 
-## 🗓 Day 6 – Strings & Methods  
+## 🗓 Day 6 – Methods  
 **(Date: 20-Dec-2025)**
 
 - Studied String basic concepts.
@@ -108,7 +108,7 @@ BridgeLabz-Training/
 - Committed and pushed solutions to the repository.
 
 🔗 *Code Link:*  
-👉 [Day 6 – Strings & Methods](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Method)
+👉 [Day 6 – Methods](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Method)
 
 ---
 
