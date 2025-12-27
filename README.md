@@ -110,5 +110,32 @@ BridgeLabz-Training/
 
 ---
 
+# 📅 Week 2: Java Strings , Java Exceptions & Built-in Functions
+
+---
+
+## 🗓 Day 7 – String Problems
+**(Date: 22-Dec-2025)**
+
+- Java Strings
+- Create Strings
+- Use of "\" Escape Sequence
+- Take String Input
+- String Arrays
+- String as Method Parameters
+- String Class Built-In Methods
+- ASCII Character Codes
+- Java Exceptions
+- Java Exception Hierarchy
+- Java Exception Types
+- java.lang.RuntimeException or Unchecked Exceptions
+- Checked Exceptions
+- Committed and pushed solutions to the repository.
+
+🔗 *Code Link:*  
+👉 [Day 7 – String and Exception Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/String)
+
+---
+
 
 
