@@ -137,5 +137,19 @@ BridgeLabz-Training/
 
 ---
 
+## 🗓 Day 8 – Extra String Problems, String Handling & Built-in Function
+**(Date: 23-Dec-2025)**
+
+- Use common Built-in Functions and build the logic
+- Solved extra String problems
+- Handling strings and common string functions
+- Functions - parameter passing, return
+- Committed and pushed solutions to the repository.
+
+🔗 *Code Link:*  
+👉 [Day 8 – Extra String Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extras)
+
+---
+
 
 
