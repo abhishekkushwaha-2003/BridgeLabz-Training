@@ -138,6 +138,172 @@ BridgeLabz-Training/
 👉 [Day 7 – String and Exception Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/String)
 
 ---
+---
+
+## 🗓 Day 8 – Extra String Problems, String Handling & Built-in Function
+**(Date: 23-Dec-2025)**
+
+- Use common Built-in Functions and build the logic
+- Solved extra String problems
+- Handling strings and common string functions
+- Functions - parameter passing, return
+- Committed and pushed solutions to the repository.
+
+🔗 *Code Link:*  
+👉 [Day 8 – Extra String Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extras)
+
+---
+
+# (Date: 24-Dec-2025)
+## Scenario-based, real-world Java problems  & README.md File
+
+ - Scenario-based questions solved
+ - Problem 1: The Coffee Counter Chronicles
+ - Problem 2: Maya’s BMI Fitness Tracker
+ - Studied about README.md file 
+ - Push problem's solution on GitHub
+ - 
+  🔗 *Code Link:*  
+👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+   
+---
+
+# (Date: 26-Dec-2025)
+## LeetCode Questions & Scenario-based, real-world Java problems 
+
+ - Scenario-based questions solved
+ - Problem 1: Election Booth Manager ️
+ - Problem 2: Metro Smart Card Fare Deduction
+ - Problem 3: Raj’s Result Generator ‍
+ - Solved questions on leetcode
+ - Push problem's solution on GitHub
+ - 
+  🔗 *Code Link:*  
+👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+## Procedural & Object-Oriented Programming 
+
+-**Topics Covered**
+ - Procedural Programming Overview
+ - Functions
+ - Data Flow
+ - Linear Execution
+ - Limitations of Procedural Programming
+ - Object-oriented Programming (OOP) Overview
+ - Advantages of OOP Over Procedural Programming
+ - Procedural vs OOP comparison
+ - Java: Class and Object
+ - Syntax and examples
+ - Class vs object
+ - Programming Practice
+ - Class & object based programs
+ - Procedural programming examples
+ - Practice problems for concept reinforcement
+ - Push problem's solution on GitHub
+ - 
+  🔗 *Code Link:*  
+👉 [Java Class & Object](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+   
+   
+---
+
+# (Date: 27-Dec-2025)
+## LeetCode Questions & real-world Java problems 
+
+ - Solved questions on leetcode
+ - Push problem's solution on GitHub
+
+ ## Constructors & Access Modifiers
+
+ **-Topics Covered**
+  - Studied about Constructors
+  - Key Features of Constructors
+  - Use of this keyword
+  - Constructor overloading
+  - Constructor chaining
+  - Copy constructor
+  - Instance vs Class Variables and Methods
+  - Static variables and static methods
+  - Programming Practice
+  - Constructor based programs
+  - Access modifier based programs
+  - Practice problems for concept reinforcement
+
+🔗 *Code Link:*  
+👉 [Java Constructor & Access Modifier](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructorandaccessmodifier/level1)
+
+   
+---
+
+# (Date: 29-Dec-2025)
+## LeetCode Questions & Scenario-based, real-world Java problems 
+
+ - Scenario-based questions solved
+ - Problem 1: Shopkeeper’s Discount Dashboard 
+ - Problem 2: School Bus Attendance System 
+ - Problem 3: Phone Recharge Simulator
+ - Problem 4: Parking Lot Gate System 
+ - Problem 5: The Number Guessing Game
+ - Solved questions on leetcode
+ - Push problem's solution on GitHub
+ - 
+  🔗 *Code Link:*  
+👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+## OOPs Keywords, instanceof operator & Eclipse Editor
+
+**-Topics Covered**
+ - this keyword
+ - static keyword
+ - static Variables
+ - static Methods
+ - static Block
+ - final keyword
+ - final variables
+ - final methods
+ - Studied about instanceof Operator
+ - Problems based on keywords
+ - Practice problems for concept reinforcement
+   
+🔗 *Code Link:*  
+👉 [Java Keywords & instanceof operator ](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/thisfinalstatickeyword/level1)   
+
+---
+
+# (Date: 30-Dec-2025)
+## LeetCode Questions & Scenario-based, real-world Java problems 
+
+ - Scenario-based questions solved
+ - Problem 1: Sandeep’s Fitness Challenge Tracker 
+ - Problem 2: Train Reservation Queue 
+ - Problem 3: Temperature Logger
+ - Problem 4: Movie Ticket Booking App
+ - Problem 5: Rohan’s Library Reminder App
+ - Solved questions on leetcode
+ - Push problem's solution on GitHub
+ - 
+  🔗 *Code Link:*  
+👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+## Object Modeling & Class Diagram
+
+**-Topics Covered**
+ - Classes vs Objects in Java
+ - Object Oriented Design Principles 
+ - Class Diagram
+ - Object Diagrams
+ - Sequence Diagrams
+ - Practice problems for concept reinforcement
+ - 
+🔗 *Code Link:*  
+   
+---
+
+
+
+
+
+
 
 
 
