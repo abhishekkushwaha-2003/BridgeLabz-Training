@@ -18,6 +18,9 @@
  - Procedural programming examples
  - Practice problems for concept reinforcement
  - Push problem's solution on GitHub
+ - 
+  🔗 *Code Link:*  
+👉 [Java Class & Object](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
    
 ---
 
@@ -38,6 +41,9 @@
  - Access modifier based programs
  - Practice problems for concept reinforcement
 
+🔗 *Code Link:*  
+👉 [Java Constructor & Access Modifier](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructorandaccessmodifier/level1)
+
 ---
 
 # (Date: 29-Dec-2025)
@@ -55,5 +61,24 @@
  - Studied about instanceof Operator
  - Problems based on keywords
  - Practice problems for concept reinforcement
+ - 
+🔗 *Code Link:*  
+👉 [Java Keywords & instanceof operator ](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/thisfinalstatickeyword/level1)
+
+---
+
+# (Date: 30-Dec-2025)
+## Object Modeling & Class Diagram
+
+**-Topics Covered**
+ - Classes vs Objects in Java
+ - Object Oriented Design Principles 
+ - Class Diagram
+ - Object Diagrams
+ - Sequence Diagrams
+ - Practice problems for concept reinforcement
+ - 
+🔗 *Code Link:*  
+
 
 ---
