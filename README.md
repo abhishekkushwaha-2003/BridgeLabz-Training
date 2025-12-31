@@ -151,5 +151,79 @@ BridgeLabz-Training/
 
 ---
 
+# (Date: 24-Dec-2025)
+## Scenario-based, real-world Java problems  & README.md File
+
+ - Scenario-based questions solved
+ - Problem 1: The Coffee Counter Chronicles
+ - Problem 2: Maya’s BMI Fitness Tracker
+ - Studied about README.md file 
+ - Push problem's solution on GitHub
+ - 
+  🔗 *Code Link:*  
+👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+   
+---
+
+# (Date: 26-Dec-2025)
+## LeetCode Questions & Scenario-based, real-world Java problems 
+
+ - Scenario-based questions solved
+ - Problem 1: Election Booth Manager ️
+ - Problem 2: Metro Smart Card Fare Deduction
+ - Problem 3: Raj’s Result Generator ‍
+ - Solved questions on leetcode
+ - Push problem's solution on GitHub
+ - 
+  🔗 *Code Link:*  
+👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+   
+---
+
+# (Date: 27-Dec-2025)
+## LeetCode Questions & real-world Java problems 
+
+ - Solved questions on leetcode
+ - Push problem's solution on GitHub
+   
+---
+
+# (Date: 29-Dec-2025)
+## LeetCode Questions & Scenario-based, real-world Java problems 
+
+ - Scenario-based questions solved
+ - Problem 1: Shopkeeper’s Discount Dashboard 
+ - Problem 2: School Bus Attendance System 
+ - Problem 3: Phone Recharge Simulator
+ - Problem 4: Parking Lot Gate System 
+ - Problem 5: The Number Guessing Game
+ - Solved questions on leetcode
+ - Push problem's solution on GitHub
+ - 
+  🔗 *Code Link:*  
+👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+   
+---
+
+# (Date: 30-Dec-2025)
+## LeetCode Questions & Scenario-based, real-world Java problems 
+
+ - Scenario-based questions solved
+ - Problem 1: Sandeep’s Fitness Challenge Tracker 
+ - Problem 2: Train Reservation Queue 
+ - Problem 3: Temperature Logger
+ - Problem 4: Movie Ticket Booking App
+ - Problem 5: Rohan’s Library Reminder App
+ - Solved questions on leetcode
+ - Push problem's solution on GitHub
+ - 
+  🔗 *Code Link:*  
+👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+   
+---
+
+
+
+
 
 
