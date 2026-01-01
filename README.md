@@ -174,7 +174,7 @@ BridgeLabz-Training/
  - Problem 3: Raj’s Result Generator ‍
  - Solved questions on leetcode
  - Push problem's solution on GitHub
- - 
+   
   🔗 *Code Link:*  
 👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
    
@@ -199,7 +199,7 @@ BridgeLabz-Training/
  - Problem 5: The Number Guessing Game
  - Solved questions on leetcode
  - Push problem's solution on GitHub
- - 
+   
   🔗 *Code Link:*  
 👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
    
@@ -216,11 +216,31 @@ BridgeLabz-Training/
  - Problem 5: Rohan’s Library Reminder App
  - Solved questions on leetcode
  - Push problem's solution on GitHub
- - 
+   
   🔗 *Code Link:*  
 👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
    
 ---
+
+# (Date: 31-Dec-2025)
+## Scenario-based, real-world Java problems 
+
+ - Scenario-based questions solved
+ - Problem 1: Currency Exchange Kiosk 💱
+ - Problem 2: Bus Route Distance Tracker 🚌
+ - Problem 3: Festival Lucky Draw 🎉
+ - Problem 4: Online Quiz Application 🧠
+ - Problem 5: Digital Watch Simulation ⏱️
+ - Solved questions on leetcode
+ - Push problem's solution on GitHub
+   
+  🔗 *Code Link:*  
+👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+   
+---
+
+
+
 
 
 
