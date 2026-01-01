@@ -299,6 +299,40 @@ BridgeLabz-Training/
    
 ---
 
+# (Date: 31-Dec-2025)
+
+## Scenario-based, real-world Java problems 
+
+ - Scenario-based questions solved
+ - Problem 1: Currency Exchange Kiosk 💱
+ - Problem 2: Bus Route Distance Tracker 🚌
+ - Problem 3: Festival Lucky Draw 🎉
+ - Problem 4: Online Quiz Application 🧠
+ - Problem 5: Digital Watch Simulation ⏱️
+ - Solved questions on leetcode
+ - Push problem's solution on GitHub
+   
+  🔗 *Code Link:*  
+👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+   
+## Inheritance
+
+**-Topics Covered**
+- Single Level Inheritance
+- Multilevel Inheritance
+- Hierarchical Inheritance
+- Key Features of Inheritance
+- Method Overriding
+- Constructor Inheritance in Java
+- Polymorphism and Inheritance
+- Access Modifiers and Inheritance
+- Practice problems for concept reinforcement
+  
+🔗 *Code Link:*  
+👉 [Submission of Inheritance Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+
+---
+
 
 
 
