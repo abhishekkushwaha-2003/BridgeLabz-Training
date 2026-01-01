@@ -1,0 +1,15 @@
+package com.inheritance.assistedproblems;
+
+public class AnimalMain {
+	public static void main(String[] args) {
+
+		// parent reference child objects (polymorphism)
+		Animal a1 = new Dog("Puppy", 3);
+		Animal a2 = new Cat("Kitty", 2);
+		Animal a3 = new Bird("Koyal", 1);
+
+		a1.makeSound();
+		a2.makeSound();
+		a3.makeSound();
+	}
+}
