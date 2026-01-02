@@ -78,7 +78,27 @@
  - Sequence Diagrams
  - Practice problems for concept reinforcement
  - 
-🔗 *Code Link:*  
-
+🔗 *Code Link:*
+👉 [Object Modeling & Class Diagram](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodelingandobjectdiagram)
 
 ---
+
+# (Date: 31-Dec-2025)
+## Inheritance
+
+**-Topics Covered**
+- Single Level Inheritance
+- Multilevel Inheritance
+- Hierarchical Inheritance
+- Key Features of Inheritance
+- Method Overriding
+- Constructor Inheritance in Java
+- Polymorphism and Inheritance
+- Access Modifiers and Inheritance
+- Practice problems for concept reinforcement
+  
+🔗 *Code Link:*  
+👉 [Submission of Inheritance Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+
+---
+
