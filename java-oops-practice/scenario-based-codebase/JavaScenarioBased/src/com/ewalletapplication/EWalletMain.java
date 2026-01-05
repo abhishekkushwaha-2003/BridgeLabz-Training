@@ -6,8 +6,8 @@ public class EWalletMain {
 			Wallet w1 = new PersonalWallet(500);
 			Wallet w2 = new BusinessWallet(1000);
 
-			User u1 = new User(1, "Rahul", w1);
-			User u2 = new User(2, "Amit", w2);
+			User u1 = new User(1, "Rajeev", w1);
+			User u2 = new User(2, "Anuj", w2);
 
 			Transaction.showBalance(u1);
 			Transaction.showBalance(u2);
