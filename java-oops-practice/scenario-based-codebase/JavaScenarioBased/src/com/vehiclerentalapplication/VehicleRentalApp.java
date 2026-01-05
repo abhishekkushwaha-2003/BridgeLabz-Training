@@ -13,7 +13,7 @@ package com.vehiclerentalapplication;
 		public static void main(String[] args) {
 
 			// customer object
-			Customer c1 = new Customer(101, "Rahul");
+			Customer c1 = new Customer(101, "Rajeev");
 			c1.displayCustomer();
 
 			System.out.println("-----------------------");
