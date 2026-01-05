@@ -12,7 +12,7 @@ public class CampusConnectMain {
 
 		// creating students
 		Student s1 = new Student(101, "Rahul", "rahul@gmail.com");
-		Student s2 = new Student(102, "Anita", "anita@gmail.com");
+		Student s2 = new Student(102, "Ajay", "ajay@gmail.com");
 
 		// enrolling students
 		s1.enrollCourse(javaCourse);
