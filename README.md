@@ -2,7 +2,7 @@
 ## Procedural & Object-Oriented Programming 
 
 📂 Project Folder Structure
-text
+
 ```
 BridgeLabz-Training/
 │
@@ -160,7 +160,8 @@ BridgeLabz-Training/
 - Interface
 - Interface vs Class in Java
 - When to Use Interface vs Class
- 🔗 Code Link:
+ 
+ 🔗 *Code Link:*
  👉 [Java Encapsulation and Polymorphism](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationpolymorphisminterfaceandabstractclass).
 
 ---
