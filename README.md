@@ -114,8 +114,8 @@ BridgeLabz-Training/
 
 ---
 
-## 🗓 Day 7 – String & Exception Handling Problems
-**(Date: 22-Dec-2025)**
+# 📅 Day 7 – String & Exception Handling Problems
+## (Date: 22-Dec-2025)
 
 - Java Strings
 - Create Strings
@@ -137,8 +137,8 @@ BridgeLabz-Training/
 
 ---
 
-## 🗓 Day 8 – Extra String Problems, String Handling & Built-in Function
-**(Date: 23-Dec-2025)**
+# 📅 Day 8 – Extra String Problems, String Handling & Built-in Function
+## (Date: 23-Dec-2025)
 
 - Use common Built-in Functions and build the logic
 - Solved extra String problems
@@ -151,28 +151,27 @@ BridgeLabz-Training/
 
 ---
 
-# (Date: 24-Dec-2025)
-## Scenario-based, real-world Java problems  & README.md File
+# 📅 Day 9 - Scenario-based, real-world Java problems  & README.md File
+## (Date: 24-Dec-2025)
 
  - Scenario-based questions solved
  - Problem 1: The Coffee Counter Chronicles
  - Problem 2: Maya’s BMI Fitness Tracker
  - Studied about README.md file 
  - Push problem's solution on GitHub
- - 
+  
   🔗 *Code Link:*  
 👉 [Scenario-Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/core-java-practice/scenario-based)
    
 ---
 
-# (Date: 26-Dec-2025)
-## LeetCode Questions & Scenario-based, real-world Java problems 
+# 📅 Day 11 - Scenario-based, real-world Java problems
+## (Date: 26-Dec-2025)
 
  - Scenario-based questions solved
  - Problem 1: Election Booth Manager ️
  - Problem 2: Metro Smart Card Fare Deduction
  - Problem 3: Raj’s Result Generator ‍
- - Solved questions on leetcode
  - Push problem's solution on GitHub
    
   🔗 *Code Link:*  
@@ -180,16 +179,16 @@ BridgeLabz-Training/
    
 ---
 
-# (Date: 27-Dec-2025)
-## LeetCode Questions & real-world Java problems 
+# 📅 Day 12 - LeetCode Questions & real-world Java problems 
+## (Date: 27-Dec-2025)
 
  - Solved questions on leetcode
  - Push problem's solution on GitHub
    
 ---
 
-# (Date: 29-Dec-2025)
-## LeetCode Questions & Scenario-based, real-world Java problems 
+# 📅 Day 14 - Scenario-based, real-world Java problems
+## (Date: 29-Dec-2025)
 
  - Scenario-based questions solved
  - Problem 1: Shopkeeper’s Discount Dashboard 
@@ -197,7 +196,6 @@ BridgeLabz-Training/
  - Problem 3: Phone Recharge Simulator
  - Problem 4: Parking Lot Gate System 
  - Problem 5: The Number Guessing Game
- - Solved questions on leetcode
  - Push problem's solution on GitHub
    
   🔗 *Code Link:*  
@@ -205,8 +203,8 @@ BridgeLabz-Training/
    
 ---
 
-# (Date: 30-Dec-2025)
-## LeetCode Questions & Scenario-based, real-world Java problems 
+# 📅 Day 15 - Scenario-based, real-world Java problems 
+## (Date: 30-Dec-2025)
 
  - Scenario-based questions solved
  - Problem 1: Sandeep’s Fitness Challenge Tracker 
@@ -214,7 +212,6 @@ BridgeLabz-Training/
  - Problem 3: Temperature Logger
  - Problem 4: Movie Ticket Booking App
  - Problem 5: Rohan’s Library Reminder App
- - Solved questions on leetcode
  - Push problem's solution on GitHub
    
   🔗 *Code Link:*  
@@ -222,8 +219,8 @@ BridgeLabz-Training/
    
 ---
 
-# (Date: 31-Dec-2025)
-## Scenario-based, real-world Java problems 
+# 📅 Day 16 - Scenario-based, real-world Java problems 
+## (Date: 31-Dec-2025)
 
  - Scenario-based questions solved
  - Problem 1: Currency Exchange Kiosk 💱
@@ -231,7 +228,6 @@ BridgeLabz-Training/
  - Problem 3: Festival Lucky Draw 🎉
  - Problem 4: Online Quiz Application 🧠
  - Problem 5: Digital Watch Simulation ⏱️
- - Solved questions on leetcode
  - Push problem's solution on GitHub
    
   🔗 *Code Link:*  
