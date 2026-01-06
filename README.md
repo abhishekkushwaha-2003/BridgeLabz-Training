@@ -1,5 +1,35 @@
-# (Date: 26-Dec-2025)
+#📅 (Date: 26-Dec-2025)
 ## Procedural & Object-Oriented Programming 
+
+📂 Project Folder Structure
+BridgeLabz-Training/
+│
+├── java-oops-practice/
+│   │
+│   ├── gcr-codebase/
+│   │   └── JavaOopsConcept/
+│   │       ├── diagrams/
+│   │       └── src/
+│   │           └── com/
+│   │               └── (Core Java OOPS concepts)
+│   │
+│   ├── scenario-based-codebase/
+│   │   └── ScenarioProblems/
+│   │       └── src/
+│   │           └── com/
+│   │               └── (Scenario based OOPS problems)
+│   │
+│   └── README.md
+
+- Created a new branch named java-oops-practice.
+- Set up Eclipse IDE for Java Developers.
+- Practiced Object-Oriented Programming concepts.
+- Implemented OOPS-based Java programs using:
+- Classes and Objects
+- Constructors
+- Methods
+- Organized OOPS programs into a separate branch.
+- Committed and pushed all changes successfully.
 
 -**Topics Covered**
  - Procedural Programming Overview
@@ -24,7 +54,7 @@
    
 ---
 
-# (Date: 27-Dec-2025)
+#📅 (Date: 27-Dec-2025)
 ## Constructors & Access Modifiers
 
 **-Topics Covered**
@@ -46,7 +76,7 @@
 
 ---
 
-# (Date: 29-Dec-2025)
+#📅 (Date: 29-Dec-2025)
 ## OOPs Keywords, instanceof operator & Eclipse Editor
 
 **-Topics Covered**
@@ -67,7 +97,7 @@
 
 ---
 
-# (Date: 30-Dec-2025)
+#📅 (Date: 30-Dec-2025)
 ## Object Modeling & Class Diagram
 
 **-Topics Covered**
@@ -83,7 +113,7 @@
 
 ---
 
-# (Date: 31-Dec-2025)
+#📅 (Date: 31-Dec-2025)
 ## Inheritance
 
 **-Topics Covered**
@@ -99,6 +129,36 @@
   
 🔗 *Code Link:*  
 👉 [Submission of Inheritance Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+
+---
+
+#📅 (Date: 1-Jan-2026)
+## Java Encapsulation & Polymorphism
+
+**-Topics Covered**
+ - Encapsulation
+ - Key Benefits of Encapsulation
+ - Data Hiding
+ - Increased Flexibility
+ - Reusability
+ - Example of Encapsulation
+  
+- Polymorphism
+
+- Types of Polymorphism
+- Compile-Time (Static) Polymorphism
+- Method Overloading
+- Runtime (Dynamic) Polymorphism
+- Method Overriding
+- Polymorphism with Interfaces
+- Polymorphism with Abstract Classes
+- Java Interfaces and Abstract Classes
+- Abstract Class
+- Interface
+- Interface vs Class in Java
+- When to Use Interface vs Class
+ 🔗 Code Link:
+ 👉 [Java Encapsulation and Polymorphism](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationpolymorphisminterfaceandabstractclass).
 
 ---
 
