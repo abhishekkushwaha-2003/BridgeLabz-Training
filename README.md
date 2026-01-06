@@ -2,6 +2,8 @@
 ## Procedural & Object-Oriented Programming 
 
 📂 Project Folder Structure
+text
+```
 BridgeLabz-Training/
 │
 ├── java-oops-practice/
@@ -20,6 +22,7 @@ BridgeLabz-Training/
 │   │               └── (Scenario based OOPS problems)
 │   │
 │   └── README.md
+```
 
 - Created a new branch named java-oops-practice.
 - Set up Eclipse IDE for Java Developers.
