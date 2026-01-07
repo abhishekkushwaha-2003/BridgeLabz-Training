@@ -1,4 +1,4 @@
-#📅 (Date: 26-Dec-2025)
+# 📅 (Date: 26-Dec-2025)
 ## Procedural & Object-Oriented Programming 
 
 📂 Project Folder Structure
@@ -57,7 +57,7 @@ BridgeLabz-Training/
    
 ---
 
-#📅 (Date: 27-Dec-2025)
+# 📅 (Date: 27-Dec-2025)
 ## Constructors & Access Modifiers
 
 **-Topics Covered**
@@ -79,7 +79,7 @@ BridgeLabz-Training/
 
 ---
 
-#📅 (Date: 29-Dec-2025)
+# 📅 (Date: 29-Dec-2025)
 ## OOPs Keywords, instanceof operator & Eclipse Editor
 
 **-Topics Covered**
@@ -100,7 +100,7 @@ BridgeLabz-Training/
 
 ---
 
-#📅 (Date: 30-Dec-2025)
+# 📅 (Date: 30-Dec-2025)
 ## Object Modeling & Class Diagram
 
 **-Topics Covered**
@@ -116,7 +116,7 @@ BridgeLabz-Training/
 
 ---
 
-#📅 (Date: 31-Dec-2025)
+# 📅 (Date: 31-Dec-2025)
 ## Inheritance
 
 **-Topics Covered**
@@ -135,7 +135,7 @@ BridgeLabz-Training/
 
 ---
 
-#📅 (Date: 1-Jan-2026)
+# 📅 (Date: 1-Jan-2026)
 ## Java Encapsulation & Polymorphism
 
 **-Topics Covered**
@@ -165,4 +165,17 @@ BridgeLabz-Training/
  👉 [Java Encapsulation and Polymorphism](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationpolymorphisminterfaceandabstractclass).
 
 ---
+# 📅 (Date: 2-Jan-2026)
+## Scenario-based Problems
 
+- Scenario-based questions solved
+ - Problem 1: Hospital Patient Management System
+ - Problem 2: Vehicle Rental Application
+ - Problem 3: University Course Enrollment System
+ - Problem 4: E-Wallet Application
+ - Problem 5: Smart Home Automation System
+
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
