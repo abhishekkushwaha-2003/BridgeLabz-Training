@@ -204,5 +204,19 @@ BridgeLabz-Training/
 
 ---
 
+# 📅 (Date: 6-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: EduMentor – Personalized Learning Platform
+ - Problem 2: FitTrack – Your Personal Fitness Tracker
+ - Problem 3: PetPal – Virtual Pet Care App
+ - Problem 4: EventEase – Event Management Platform
+ - 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
 
 
