@@ -1,0 +1,4 @@
+Hello World
+This is FileReader example
+Java is easy
+File reading is important
