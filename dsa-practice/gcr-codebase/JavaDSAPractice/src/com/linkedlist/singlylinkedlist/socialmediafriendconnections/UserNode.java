@@ -1,6 +1,6 @@
 package com.linkedlist.singlylinkedlist.socialmediafriendconnections;
 
-//node for user
+// node for user
 class UserNode {
 
  int userId;

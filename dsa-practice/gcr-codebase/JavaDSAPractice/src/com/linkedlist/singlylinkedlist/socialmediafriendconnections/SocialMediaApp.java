@@ -6,13 +6,13 @@ public class SocialMediaApp {
 
         SocialNetwork network = new SocialNetwork();
 
-        // adding users
+        //adding users
         network.addUser(1, "Abhi", 21);
         network.addUser(2, "Rahul", 22);
         network.addUser(3, "Neha", 20);
         network.addUser(4, "Pooja", 23);
 
-        // adding friends
+        //adding friends
         network.addFriend(1, 2);
         network.addFriend(1, 3);
         network.addFriend(2, 3);

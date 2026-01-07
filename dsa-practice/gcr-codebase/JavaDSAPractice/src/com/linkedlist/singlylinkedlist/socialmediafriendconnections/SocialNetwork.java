@@ -1,6 +1,6 @@
 package com.linkedlist.singlylinkedlist.socialmediafriendconnections;
 
-class SocialNetwork {
+class SocialNetwork{
 
     private UserNode head;
 
