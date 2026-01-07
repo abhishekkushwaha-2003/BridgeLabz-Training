@@ -192,3 +192,17 @@ BridgeLabz-Training/
 
 ---
 
+# 📅 (Date: 5-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: CampusConnect – College Information System
+ - Problem 2: SwiftCart – The Grocery Shopping App
+
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
+
+
