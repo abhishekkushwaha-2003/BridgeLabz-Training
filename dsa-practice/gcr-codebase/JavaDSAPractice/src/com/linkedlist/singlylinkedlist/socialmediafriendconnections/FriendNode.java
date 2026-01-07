@@ -5,7 +5,7 @@ class FriendNode {
  int friendId;
  FriendNode next;
 
- FriendNode(int friendId) {
+ FriendNode (int friendId) {
      this.friendId = friendId;
      this.next = null;
  }
