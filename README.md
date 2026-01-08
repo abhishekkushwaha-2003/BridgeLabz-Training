@@ -218,5 +218,18 @@ BridgeLabz-Training/
 
 ---
 
+# 📅 (Date: 7-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: LoanBuddy – Loan Approval Automation
+ - Problem 2: BookBazaar – Digital Bookstore System
+ - Problem 3: ParkEase – Smart Parking Management System
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
 
 
