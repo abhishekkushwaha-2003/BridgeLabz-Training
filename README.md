@@ -334,6 +334,192 @@ BridgeLabz-Training/
 ---
 
 
+# 📅 (Date: 1-Jan-2026)
+## Java Encapsulation & Polymorphism
+
+**-Topics Covered**
+ - Encapsulation
+ - Key Benefits of Encapsulation
+ - Data Hiding
+ - Increased Flexibility
+ - Reusability
+ - Example of Encapsulation
+  
+- Polymorphism
+
+- Types of Polymorphism
+- Compile-Time (Static) Polymorphism
+- Method Overloading
+- Runtime (Dynamic) Polymorphism
+- Method Overriding
+- Polymorphism with Interfaces
+- Polymorphism with Abstract Classes
+- Java Interfaces and Abstract Classes
+- Abstract Class
+- Interface
+- Interface vs Class in Java
+- When to Use Interface vs Class
+ 
+ 🔗 *Code Link:*
+ 👉 [Java Encapsulation and Polymorphism](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationpolymorphisminterfaceandabstractclass).
+
+---
+# 📅 (Date: 2-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: Hospital Patient Management System
+ - Problem 2: Vehicle Rental Application
+ - Problem 3: University Course Enrollment System
+ - Problem 4: E-Wallet Application
+ - Problem 5: Smart Home Automation System
+
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+## Data Structures & Linked Lists in Java
+
+-**Topics Covered**
+
+ - Data Structures Overview
+ - Types of Data Structures in Java
+ - Linked List
+   - Singly Linked List
+   - Doubly Linked List
+   - Circular Linked List  
+
+🔗 **Code Link:**  
+👉 [LinkedList](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/linkedlist).
+
+---
+
+# 📅 (Date: 3-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: CabbyGo – A Ride-Hailing App in the Making
+ - Problem 2: MyBank – Managing Customer Accounts
+
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+## Stack , Queue, HashMap and Hashing Function
+
+-**Topics Covered**
+
+- Stack
+  - Key Characteristics of Stack
+  - Internal Working of Stack
+  - Common Applications of Stack
+  - Common Methods in Stack Class
+  - Limitations of Stacks
+ 
+- Queue
+  - Types of Queues
+  - Key Operations
+  - Key Characteristics of a Queue
+  - Common Queue Methods
+  - Applications of Queue
+
+- HashMap 
+  - HashMap in Java
+  - Key Operations
+  - Key Characteristics
+  - Internal Working of HashMap
+  - Key Methods in HashMap
+  - Advantages of HashMap
+  - Limitations of HashMap
+ 
+ - Hashing Function
+   - Hashing Function in Java
+   - Key Concepts of Hashing
+   - Steps for Hashing in Java
+   - Common Hashing Algorithms
+   - Applications of Hashing   
+
+🔗 **Code Link:**  
+👉 [Stack & Queue](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/stackandqueue).
+👉 [HashMap & Hashing Function](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/hashmapandhashfunction).
+
+---
+
+# 📅 (Date: 5-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: CampusConnect – College Information System
+ - Problem 2: SwiftCart – The Grocery Shopping App
+
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+## Sorting Algorithm
+
+-**Topics Covered**
+
+ - Bubble Sort
+ - Insertion Sort
+ - Merge Sort
+ - Quick Sort
+   - Concept
+   - Working Mechanism
+   - Performance Analysis
+   - Use Cases
+   - Time Complexity
+
+🔗 **Code Link:**  
+👉 [Sorting](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/sortingalgorithm)
+
+---
+
+# 📅 (Date: 6-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: EduMentor – Personalized Learning Platform
+ - Problem 2: FitTrack – Your Personal Fitness Tracker
+ - Problem 3: PetPal – Virtual Pet Care App
+ - Problem 4: EventEase – Event Management Platform
+ - 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+## Searching
+
+-**Topics Covered**
+
+- StringBuilder
+- StringBuffer
+- FileReader 
+- InputStreamReader
+- Linear Search 
+- Binary Search
+  - Key Features
+  - Examples
+  - Uses
+  - Advantages
+
+🔗 **Code Link:**  
+👉 [Searching](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/searching)
+
+---
+
+# 📅 (Date: 7-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: LoanBuddy – Loan Approval Automation
+ - Problem 2: BookBazaar – Digital Bookstore System
+ - Problem 3: ParkEase – Smart Parking Management System
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
+
+
+
 
 
 
