@@ -56,3 +56,23 @@
 👉 [HashMap & Hashing Function](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/hashmapandhashfunction).
 
 ---
+
+# 📅 (Date: 05-Jan-2026) 
+## Sorting Algorithm
+
+-**Topics Covered**
+
+ - Bubble Sort
+ - Insertion Sort
+ - Merge Sort
+ - Quick Sort
+   - Concept
+   - Working Mechanism
+   - Performance Analysis
+   - Use Cases
+   - Time Complexity
+
+🔗 **Code Link:**  
+👉 [LinkedList](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/sortingalgorithm)
+
+---
