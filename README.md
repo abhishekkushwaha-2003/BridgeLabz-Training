@@ -73,6 +73,27 @@
    - Time Complexity
 
 🔗 **Code Link:**  
-👉 [LinkedList](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/sortingalgorithm)
+👉 [Sorting](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/sortingalgorithm)
+
+---
+
+# 📅 (Date: 06-Jan-2026) 
+## Searching
+
+-**Topics Covered**
+
+- StringBuilder
+- StringBuffer
+- FileReader 
+- InputStreamReader
+- Linear Search 
+- Binary Search
+  - Key Features
+  - Examples
+  - Uses
+  - Advantages
+
+🔗 **Code Link:**  
+👉 [Searching](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/searching)
 
 ---
