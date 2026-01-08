@@ -15,3 +15,44 @@
 👉 [LinkedList](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/linkedlist).
 
 ---
+
+# 📅 (Date: 03-Jan-2026) 
+## Stack , Queue, HashMap and Hashing Function
+
+-**Topics Covered**
+
+- Stack
+  - Key Characteristics of Stack
+  - Internal Working of Stack
+  - Common Applications of Stack
+  - Common Methods in Stack Class
+  - Limitations of Stacks
+ 
+- Queue
+  - Types of Queues
+  - Key Operations
+  - Key Characteristics of a Queue
+  - Common Queue Methods
+  - Applications of Queue
+
+- HashMap 
+  - HashMap in Java
+  - Key Operations
+  - Key Characteristics
+  - Internal Working of HashMap
+  - Key Methods in HashMap
+  - Advantages of HashMap
+  - Limitations of HashMap
+ 
+ - Hashing Function
+   - Hashing Function in Java
+   - Key Concepts of Hashing
+   - Steps for Hashing in Java
+   - Common Hashing Algorithms
+   - Applications of Hashing   
+
+🔗 **Code Link:**  
+👉 [Stack & Queue](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/stackandqueue).
+👉 [HashMap & Hashing Function](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/hashmapandhashfunction).
+
+---
