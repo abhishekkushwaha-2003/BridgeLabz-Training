@@ -1,0 +1,3 @@
+Java file reading example
+This is a large file test
+We are comparing FileReader and InputStreamReader
