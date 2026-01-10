@@ -515,6 +515,21 @@ BridgeLabz-Training/
 🔗 *Code Link:*  
 👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
 
+## Algorithm's Runtime Analysis & Big-O Notation
+
+-**Topics Covered**
+
+- Runtime Analysis
+- Big-O Notation
+- Time Complexity Analysis 
+- Space Complexity Analysis
+  - Best Case Complexities
+  - Worst Case Complexities
+  - Average Case Complexities 
+
+🔗 **Code Link:**  
+👉 [Algorithm's Runtime Analysis & Big-O Notation](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/algorithmruntimeanalysisandbigonotation)
+
 ---
 
 # 📅 (Date: 8-Jan-2026)
@@ -528,6 +543,21 @@ BridgeLabz-Training/
 👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
 
 ---
+
+
+# 📅 (Date: 9-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: Artify – Digital Art Marketplace
+ - Problem 2: FoodLoop – Restaurant Ordering System
+ - Problem 3: SkillForge – Online Learning Portal
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
 
 
 
