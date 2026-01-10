@@ -231,5 +231,17 @@ BridgeLabz-Training/
 
 ---
 
+# 📅 (Date: 8-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: MediStore – Pharmacy Inventory & Sales System
+ - Problem 2: TourMate – Travel Itinerary Planner
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
 
 
