@@ -52,7 +52,7 @@ public class Order implements IOrderable {
 
         isPlaced = true;
 
-        System.out.println("Order placed successfully ✅");
+        System.out.println("Order placed successfully");
         System.out.println("Total Amount: ₹" + finalAmount);
     }
 
@@ -61,7 +61,7 @@ public class Order implements IOrderable {
     public void cancelOrder() {
 
         if (isPlaced) {
-            System.out.println("Order cancelled ❌");
+            System.out.println("Order cancelled!");
             isPlaced = false;
         } else {
             System.out.println("Order not placed yet");
