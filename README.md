@@ -243,5 +243,18 @@ BridgeLabz-Training/
 
 ---
 
+# 📅 (Date: 9-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: Artify – Digital Art Marketplace
+ - Problem 2: FoodLoop – Restaurant Ordering System
+ - Problem 3: SkillForge – Online Learning Portal
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
 
 
