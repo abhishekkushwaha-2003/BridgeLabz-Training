@@ -1,4 +1,3 @@
-# BridgeLabz-Training
 # 📅 (Date: 02-Jan-2026) 
 ## Data Structures & Linked Lists in Java
 
@@ -95,5 +94,23 @@
 
 🔗 **Code Link:**  
 👉 [Searching](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/searching)
+
+---
+
+# 📅 (Date: 07-Jan-2026) 
+## Algorithm's Runtime Analysis & Big-O Notation
+
+-**Topics Covered**
+
+- Runtime Analysis
+- Big-O Notation
+- Time Complexity Analysis 
+- Space Complexity Analysis
+  - Best Case Complexities
+  - Worst Case Complexities
+  - Average Case Complexities 
+
+🔗 **Code Link:**  
+👉 [Algorithm's Runtime Analysis & Big-O Notation](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDSAPractice/src/com/algorithmruntimeanalysisandbigonotation)
 
 ---
