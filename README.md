@@ -544,7 +544,6 @@ BridgeLabz-Training/
 
 ---
 
-
 # 📅 (Date: 9-Jan-2026)
 ## Scenario-based Problems
 
@@ -555,6 +554,25 @@ BridgeLabz-Training/
  
 🔗 *Code Link:*  
 👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
+# 📅 (Date: 10-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+-**Topics Covered**
+- Such as :
+  - Linked Lists (Singly, Doubly, Circular)
+  - Stacks
+  - Queues
+  - HashMaps and Functions
+- Scenario-based questions solved
+ - Problem 1: BookShelf – Library Organizer (HashMap + Linked List)
+ - Problem 2: FoodLoop – BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
+ - Problem 3: SkillForge – AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day1).
 
 ---
 
