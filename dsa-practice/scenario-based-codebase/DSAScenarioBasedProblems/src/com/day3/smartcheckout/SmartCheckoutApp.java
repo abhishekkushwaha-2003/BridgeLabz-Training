@@ -1,4 +1,4 @@
-package com.day2.smartcheckout;
+package com.day3.smartcheckout;
 
 import java.util.Arrays;
 
