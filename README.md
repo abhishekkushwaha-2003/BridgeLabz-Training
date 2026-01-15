@@ -1,3 +1,7 @@
+# 📅 Week 3: Data Structure & Algorithms
+
+---
+
 # 📅 (Date: 02-Jan-2026) 
 ## Data Structures & Linked Lists in Java
 
@@ -126,10 +130,24 @@
   - HashMaps and Functions
 - Scenario-based questions solved
  - Problem 1: BookShelf – Library Organizer (HashMap + Linked List)
- - Problem 2: FoodLoop – BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
- - Problem 3: SkillForge – AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
+ - Problem 2: BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
+ - Problem 3: AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
 
 🔗 **Code Link:**  
 👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day1).
+
+---
+
+# 📅 (Date: 12-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: CallCenter – Customer Queue Manager (Queue + HashMap)
+ - Problem 2: TrainCompanion – Compartment Navigation System (Doubly LinkedList)
+ - Problem 3: TextEditor – Undo/Redo Functionality (Stack)
+ - Problem 4:TrafficManager – Roundabout Vehicle Flow (Circular Linked List + Queue)
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day2).
 
 ---
