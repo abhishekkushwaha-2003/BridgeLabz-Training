@@ -151,3 +151,16 @@
 👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day2).
 
 ---
+
+# 📅 (Date: 13-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+ - Problem 2: ParcelTracker – Delivery Chain Management (Singly Linked List)
+ - Problem 3: ExamProctor – Online Exam Review System (Stack + HashMap + Functions
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day3).
+
+---
