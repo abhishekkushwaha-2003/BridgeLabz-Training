@@ -273,4 +273,16 @@ BridgeLabz-Training/
 
 ---
 
+# 📅 (Date: 13-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: PayXpress – Utility Bill Payment System
+ - Problem 2: Bird Sanctuary
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
 
