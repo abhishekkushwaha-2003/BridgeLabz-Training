@@ -260,5 +260,17 @@ BridgeLabz-Training/
 
 ---
 
+# 📅 (Date: 12-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: HomeNest – Smart Home Device Manager
+ - Problem 2: BudgetWise – Personal Finance Tracker
+ - Problem 3: GameBox – Mobile Game Distribution Platform
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
 
 
