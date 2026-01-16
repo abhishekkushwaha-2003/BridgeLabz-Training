@@ -32,9 +32,9 @@ public class HospitalQueue {
     public static void main(String[] args) {
 
         Patient[] patients = {
-            new Patient("Ramesh", 1, 4),
+            new Patient("Rahul", 1, 4),
             new Patient("Sita", 2, 9),
-            new Patient("Aman", 3, 6),
+            new Patient("Abhishek", 3, 6),
             new Patient("Neha", 4, 10),
             new Patient("Rahul", 5, 3)
         };

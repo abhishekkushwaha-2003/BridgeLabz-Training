@@ -13,6 +13,7 @@ public class Patient {
      this.criticality = criticality;
  }
 
+ // method to display patient detail
  public void display() {
      System.out.println(
          "Name: " + name +
