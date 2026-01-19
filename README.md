@@ -576,6 +576,106 @@ BridgeLabz-Training/
 
 ---
 
+# 📅 (Date: 12-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: CallCenter – Customer Queue Manager (Queue + HashMap)
+ - Problem 2: TrainCompanion – Compartment Navigation System (Doubly LinkedList)
+ - Problem 3: TextEditor – Undo/Redo Functionality (Stack)
+ - Problem 4:TrafficManager – Roundabout Vehicle Flow (Circular Linked List + Queue)
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day2).
+
+## Scenario-based Problems of OOPs
+
+- Scenario-based questions solved
+ - Problem 1: HomeNest – Smart Home Device Manager
+ - Problem 2: BudgetWise – Personal Finance Tracker
+ - Problem 3: GameBox – Mobile Game Distribution Platform
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
+# 📅 (Date: 13-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+ - Problem 2: ParcelTracker – Delivery Chain Management (Singly Linked List)
+ - Problem 3: ExamProctor – Online Exam Review System (Stack + HashMap + Functions
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day3).
+
+## Scenario-based Problems of OOPs
+
+- Scenario-based questions solved
+ - Problem 1: PayXpress – Utility Bill Payment System
+ - Problem 2: Bird Sanctuary
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+
+---
+
+# 📅 (Date: 15-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: HospitalQueue – Patient Sorting by Criticality (Bubble Sort)
+ - Problem 2: SmartShelf – Real-Time Book Arrangement (Insertion Sort)
+ - Problem 3: ZipZipMart – Daily Sales Summary Report (Merge Sort)
+ - Problem 4: EventManager – Ticket Price Optimizer (Quick Sort)
+ - Problem 5: ExamCell – Student Rank Generator (Merge Sort)
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day4).
+
+---
+
+# 📅 (Date: 16-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: RoboWarehouse – Shelf Loading Robot (Insertion Sort)
+ - Problem 2: CinemaHouse – Movie Time Sorting (Bubble Sort)
+ - Problem 3: CropMonitor – Sensor Data Ordering (Quick Sort)
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day5).
+
+---
+
+# 📅 (Date: 17-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: ArtExpo – Sort Artists by Registration Time (Insertion Sort)
+ - Problem 2: FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
+ - Problem 3:  IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
+ - Problem 3: SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day6).
+
+## Scenario-based Problems of OOPs
+
+- Scenario-based questions solved
+ - Problem 1: GeoMeasure Solutions Company
+ - Problem 2: Bag-n-Ball Organizer
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+
+---
+
+
 
 
 
