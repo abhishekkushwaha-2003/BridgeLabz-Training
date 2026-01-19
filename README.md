@@ -1,3 +1,7 @@
+# 📅 Week 2: Object Oriented Programming
+
+---
+
 # 📅 (Date: 26-Dec-2025)
 ## Procedural & Object-Oriented Programming 
 
@@ -243,5 +247,42 @@ BridgeLabz-Training/
 
 ---
 
+# 📅 (Date: 9-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: Artify – Digital Art Marketplace
+ - Problem 2: FoodLoop – Restaurant Ordering System
+ - Problem 3: SkillForge – Online Learning Portal
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
+# 📅 (Date: 12-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: HomeNest – Smart Home Device Manager
+ - Problem 2: BudgetWise – Personal Finance Tracker
+ - Problem 3: GameBox – Mobile Game Distribution Platform
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
+# 📅 (Date: 13-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: PayXpress – Utility Bill Payment System
+ - Problem 2: Bird Sanctuary
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
 
 
