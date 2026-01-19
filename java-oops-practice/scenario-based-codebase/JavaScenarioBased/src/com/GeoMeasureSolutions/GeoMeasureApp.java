@@ -7,7 +7,7 @@ public class GeoMeasureApp {
 
  public static void main(String[] args) {
 
-     // Creating multiple line pairs (BONUS)
+     // Creating multiple line pairs 
      ArrayList<Line[]> comparisons = new ArrayList<>();
 
      comparisons.add(new Line[] {
