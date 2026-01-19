@@ -3,7 +3,7 @@ package com.JavaStreams.FileHandling;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
+// Create a class FileHandlingClass
 public class FileHandlingClass {
 
     public static void main(String[] args) {
