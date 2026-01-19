@@ -285,4 +285,18 @@ BridgeLabz-Training/
 
 ---
 
+---
+
+# 📅 (Date: 17-Jan-2026)
+## Scenario-based Problems
+
+- Scenario-based questions solved
+ - Problem 1: GeoMeasure Solutions Company
+ - Problem 2: Bag-n-Ball Organizer
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
 
