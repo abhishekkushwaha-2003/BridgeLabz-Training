@@ -1,6 +1,6 @@
 package com.day8.GamerZoneQuickSort;
 
-//Main class – program starts here
+//Main class 
 public class GamerZoneApp {
 
  public static void main(String[] args) {

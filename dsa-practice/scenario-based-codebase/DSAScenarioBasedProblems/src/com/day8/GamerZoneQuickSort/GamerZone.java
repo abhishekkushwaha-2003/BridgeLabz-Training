@@ -1,6 +1,6 @@
 package com.day8.GamerZoneQuickSort;
 
-//Contains Quick Sort logic for ranking players
+//create a class which Contains Quick Sort logic for ranking players
 public class GamerZone {
 
  // Quick Sort method
