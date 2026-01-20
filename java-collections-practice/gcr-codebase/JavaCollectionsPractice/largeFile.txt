@@ -1,0 +1,5 @@
+Application started successfully
+ERROR: Database connection failed
+User logged in
+Warning: low memory
+error occurred while reading file
