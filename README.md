@@ -192,3 +192,17 @@
 👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day5).
 
 ---
+
+# 📅 (Date: 17-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: ArtExpo – Sort Artists by Registration Time (Insertion Sort)
+ - Problem 2: FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
+ - Problem 3:  IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
+ - Problem 4: SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day6).
+
+---
