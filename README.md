@@ -219,3 +219,16 @@
 👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day7).
 
 ---
+
+# 📅 (Date: 20-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: MovieTime – Theater Show Listings (Insertion Sort)
+ - Problem 2: FoodFest – Sorting Stalls by Customer Footfall (Merge Sort)
+ - Problem 3: GamerZone – High Score Ranking System (Quick Sort)
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day8).
+
+---
