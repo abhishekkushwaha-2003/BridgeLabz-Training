@@ -742,6 +742,53 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 
 ---
 
+# 📅 (Date: 19-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: FitnessTracker – Daily Step Count Ranking (Bubble Sort)
+ - Problem 2: FlashDealz – Product Sorting by Discount (Quick Sort)
+ - Problem 3: EduResults – Rank Sheet Generator (Merge Sort)
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day7).
+
+## Scenario-based Problems of OOPs
+
+- Scenario-based questions solved
+ - Problem 1: Address Book System
+ 
+🔗 *Code Link:*  
+👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
+
+---
+
+# 📅 (Date: 20-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: MovieTime – Theater Show Listings (Insertion Sort)
+ - Problem 2: FoodFest – Sorting Stalls by Customer Footfall (Merge Sort)
+ - Problem 3: GamerZone – High Score Ranking System (Quick Sort)
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day8).
+
+---
+
+# 📅 (Date: 21-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: TailorShop – Sorting Orders by Delivery Deadline (Insertion Sort)
+ - Problem 2:  MedWarehouse – Sorting Medicines by Expiry (Merge Sort)
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day9).
+
+---
+
+
 
 
 
