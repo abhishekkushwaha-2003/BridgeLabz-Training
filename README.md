@@ -232,3 +232,15 @@
 👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day8).
 
 ---
+
+# 📅 (Date: 21-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: TailorShop – Sorting Orders by Delivery Deadline (Insertion Sort)
+ - Problem 2:  MedWarehouse – Sorting Medicines by Expiry (Merge Sort)
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day9).
+
+---
