@@ -50,3 +50,22 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 👉 [Java Genrics](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/JavaGenerics)
 
 ---
+
+# 📅 (Date: 16-Jan-2026) 
+## Java Collections
+
+**-Topics Covered**
+- Overview of Collections Framework
+- What is the Collections Framework?
+- Hierarchy of Collections Framework
+- List Interface and Implementing Classes
+- Set Interface and Implementing Classes
+- Queue and Deque Interfaces
+- Map Interface and Its Implementations
+- Comparison of Different Implementations
+- Real-World Use Cases and Best Practices
+  
+🔗 *Code Link:*
+👉 [Java Collections](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collection)
+
+---
