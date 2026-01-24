@@ -12,7 +12,7 @@ public class PersonMain {
 
         // access private field
         Field field = cls.getDeclaredField("age");
-        field.setAccessible(true); // allow private access
+        field.setAccessible(true); 
 
         // get old value
         System.out.println("Old Age: " + field.get(p));
