@@ -1,4 +1,4 @@
-package com.AnnotationsAndReflection.ReflectionProblem.BasicLevel;
+package com.AnnotationsAndReflection.ReflectionProblem.BasicLevel.GetClassInformation;
 
 import java.lang.reflect.*;
 
