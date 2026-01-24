@@ -5,7 +5,7 @@ import java.lang.reflect.*;
 public class GetClassInformation {
     public static void main(String[] args) throws Exception {
 
-        // taking class name directly (can also use Scanner)
+        // taking class name directly
         String className = "java.lang.String";
 
         // get Class object
