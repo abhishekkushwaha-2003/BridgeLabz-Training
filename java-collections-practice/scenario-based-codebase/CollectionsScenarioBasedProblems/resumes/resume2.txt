@@ -1,0 +1,5 @@
+Name: Rajiv Rai
+Email: rajiv@yahoo.com
+Phone: 9123456789
+Skills: Java, Python
+Experience: 1 year
