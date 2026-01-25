@@ -13,7 +13,6 @@ public class CodeAnalyzer {
     private static final Pattern BAD_METHOD_PATTERN =
             Pattern.compile("\\bvoid\\s+[A-Z][a-zA-Z0-9]*\\s*\\(");
 
-    // unused import (very basic check)
     private static final Pattern IMPORT_PATTERN =
             Pattern.compile("^import\\s+.*;", Pattern.MULTILINE);
 

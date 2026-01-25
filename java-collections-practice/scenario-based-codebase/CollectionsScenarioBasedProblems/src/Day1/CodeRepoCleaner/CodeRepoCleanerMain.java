@@ -8,7 +8,7 @@ public class CodeRepoCleanerMain {
 
     public static void main(String[] args) {
 
-        // root folder jahan java files pade hain
+        // root folder
         String rootFolder = "javacode";
 
         //  scan
