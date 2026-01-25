@@ -1,0 +1,5 @@
+[12:02 PM] John: Hey, the build failed again!
+[12:03 PM] Mary: I’ll check the Jenkins pipeline.
+[12:04 PM] John: lol that was unexpected
+[12:05 PM] Alex: brb, grabbing coffee
+[12:06 PM] Mary: Build is fixed now.
