@@ -1,4 +1,4 @@
-package com.FunctionalInterfaces.ImplementingInterfaces;
+package com.FunctionalInterfaces.ImplementingInterfaces.SmartDeviceControlInterface;
 
 public class SmartDeviceControl {
     public static void main(String[] args) {
