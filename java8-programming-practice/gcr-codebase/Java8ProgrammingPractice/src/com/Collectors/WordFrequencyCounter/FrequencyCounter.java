@@ -1,4 +1,4 @@
-package com.Collectors.StudentResultGrouping.WordFrequencyCounter;
+package com.Collectors.WordFrequencyCounter;
 
 import java.util.*;
 import java.util.stream.Collectors;
