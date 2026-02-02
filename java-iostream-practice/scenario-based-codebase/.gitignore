@@ -10,6 +10,8 @@
 bin/
 target/
 
+lib/
+
 # Logs
 *.log
 
