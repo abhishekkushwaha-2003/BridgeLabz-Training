@@ -238,9 +238,25 @@
 
 - Scenario-based questions solved
  - Problem 1: TailorShop – Sorting Orders by Delivery Deadline (Insertion Sort)
- - Problem 2:  MedWarehouse – Sorting Medicines by Expiry (Merge Sort)
-
+ - Problem 2: MedWarehouse – Sorting Medicines by Expiry (Merge Sort)
+ - Problem 3: University's Digital Record System
+ - Problem 4: E-Commerce Product Inventory
+ - Problem 5: Music App - Organize Songs by Track ID
 🔗 **Code Link:**  
 👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day9).
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day10/BinarySearchTree).
+
+---
+
+# 📅 (Date: 22-Jan-2026) 
+## Real-world scenario-based problems of Data Structures
+
+- Scenario-based questions solved
+ - Problem 1: Gaming App - Real-Time Leaderboard
+ - Problem 2:  Online Ticket Booking by Time
+ - Problem 3: Hospital Queue Management
+
+🔗 **Code Link:**  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day11/AVLTree).
 
 ---
