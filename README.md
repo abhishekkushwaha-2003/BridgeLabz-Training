@@ -69,3 +69,22 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 👉 [Java Collections](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collection)
 
 ---
+
+# 📅 (Date: 19-Jan-2026) 
+## Java Streams
+
+**-Topics Covered**
+- Java I/O Streams
+- Types of Streams
+ - 1. File Streams
+ - 2. Object Streams
+ - 3. ByteArray Streams
+ - 4. Buffered Streams
+ - 5. Reader and Writer
+- Key Considerations
+- Best Practices
+  
+🔗 *Code Link:*
+👉 [Java Streams](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/JavaStreams).
+
+---
