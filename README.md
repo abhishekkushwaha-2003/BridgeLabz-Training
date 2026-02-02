@@ -761,6 +761,22 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 🔗 *Code Link:*  
 👉 [Scenario-based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/JavaScenarioBased/src/com)
 
+## Java Streams
+
+**-Topics Covered**
+- Java I/O Streams
+- Types of Streams
+  1. File Streams
+  2. Object Streams
+  3. ByteArray Streams
+  4. Buffered Streams
+  5. Reader and Writer
+- Key Considerations
+- Best Practices
+  
+🔗 *Code Link:*
+👉 [Submission of Java Streams](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/JavaStreams).
+
 ---
 
 # 📅 (Date: 20-Jan-2026) 
@@ -774,6 +790,26 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 🔗 **Code Link:**  
 👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day8).
 
+## Exceptions
+
+**-Topics Covered**
+- Types of Exceptions
+  - Checked Exceptions
+  - Unchecked Exceptions
+  - Custom Exceptions
+- Handling Exceptions 
+  - try-catch blocks
+  - try-catch-finally blocks
+  - try-with-resources statement
+  - throws clause
+  - throw statement
+- Creating Custom Exceptions
+- Extending Exception Class
+- Defining Constructors
+  
+🔗 *Code Link:*
+👉 [Submission of Exceptions](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/ExceptionHandling).
+
 ---
 
 # 📅 (Date: 21-Jan-2026) 
@@ -786,7 +822,89 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 🔗 **Code Link:**  
 👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/DSAScenarioBasedProblems/src/com/day9).
 
+## Regex & Junit
+
+**-Topics Covered**
+- Regex 
+- MetaCharacter
+- Quantifier
+
+- Common Patterns:
+   - Email Validation
+   - Password Strength
+   - Phone Number Format 
+- Java Regex API 
+  - Pattern
+  - Matcher
+- Methods:
+  - find()
+  - matches()
+  - replaceAll()
+- Introduction to JUnit Framework
+  - JUnit Annotations
+  - Writing Test Cases
+  - Structure of a Test Class
+- Assertions
+  
+🔗 *Code Link:*
+👉 [Submission of Regex Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/Regex).
+
+👉 [Submission of JUnit Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/JUnit).
+
 ---
+
+# 📅 (Date: 22-Jan-2026) 
+## Annotations & Reflection
+
+**-Topics Covered**
+- Introduction to Annotations
+
+  - Common Built-in Annotations
+  - Creating Custom Annotations
+  - Advanced Custom Annotations
+  - Real-World Use Cases
+  - Annotation Processing Tools
+
+- Reflection
+  - Understanding of Reflection
+  - Using Reflection in Java
+- Annotations and Reflection
+  
+🔗 *Code Link:*
+👉 [Submission of Annotations & Reflection](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/AnnotationsAndReflection).
+
+---
+
+# 📅 (Date: 23-Jan-2026) 
+## CSV Data Handling
+
+**-Topics Covered**
+- Introduction to CSV
+  - Reading CSV Files
+  - Writing CSV Files
+  - Parsing CSV Data
+- Data Validation
+  
+🔗 *Code Link:*
+👉 [Submission of CSV Data Handling ](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-iostream-practice/java-iostream-practice/gcr-code-base/JavaInputOutputStreamsPractice/src/com/CSVDataHandling).
+
+---
+
+# 📅 (Date: 24-Jan-2026) 
+## JSON Data
+
+**-Topics Covered**
+- Introduction to JSON
+- Reading JSON Data
+- Writing JSON Data
+- Parsing JSON Data
+- JSON Schema Validation
+  
+🔗 *Code Link:*
+👉 [Submission of JSON Data](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-iostream-practice/java-iostream-practice/gcr-code-base/JavaInputOutputStreamsPractice/src/com/JSON).
+
+---
+
 
 
 
