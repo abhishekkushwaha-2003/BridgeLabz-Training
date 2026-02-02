@@ -180,4 +180,18 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 
 ---
 
+### 🗓 Day 8 – Real-world scenario-based problems involving Collections, Generics, I/O Streams, and Regex.
+**(Date: 24-Jan-2026)**
+
+- Problem 1: MedInventory – Smart Hospital Inventory Tracker
+- Problem 2: ChatLogParser – Messaging Pattern Analyzer
+- Problem 3: SongVault – Personal Music Library Manager
+- Problem 4: ExamResultUploader – Bulk Marks Processing
+- Problem 5: DealTracker – E-Commerce Discount Validator
+
+🔗 *Code Link:*
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/CollectionsScenarioBasedProblems/src/Day2).
+
+---
+
 
