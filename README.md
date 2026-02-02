@@ -112,7 +112,6 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 
 ---
 
-
 # 📅 (Date: 21-Jan-2026) 
 ## Regex & Junit
 
@@ -139,6 +138,30 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 - Assertions
   
 🔗 *Code Link:*
-👉 [Submission of Regex & JUnit](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/ExceptionHandling).
+👉 [Submission of Regex Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/Regex).
+
+👉 [Submission of JUnit Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/JUnit).
+
+---
+
+# 📅 (Date: 22-Jan-2026) 
+## Annotations & Reflection
+
+**-Topics Covered**
+- Introduction to Annotations
+
+  - Common Built-in Annotations
+  - Creating Custom Annotations
+  - Advanced Custom Annotations
+  - Real-World Use Cases
+  - Annotation Processing Tools
+
+- Reflection
+  - Understanding of Reflection
+  - Using Reflection in Java
+- Annotations and Reflection
+  
+🔗 *Code Link:*
+👉 [Submission of Annotations & Reflection](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/AnnotationsAndReflection).
 
 ---
