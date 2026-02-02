@@ -47,7 +47,7 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
   - AI-Driven Resume Screening System
 
 🔗 *Code Link:*  
-👉 [Java Genrics](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/JavaGenerics)
+👉 [Submission Java Generics](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/JavaGenerics)
 
 ---
 
@@ -66,7 +66,7 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 - Real-World Use Cases and Best Practices
   
 🔗 *Code Link:*
-👉 [Java Collections](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collection)
+👉 [Submission of Collections](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collection)
 
 ---
 
@@ -76,15 +76,69 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 **-Topics Covered**
 - Java I/O Streams
 - Types of Streams
- - 1. File Streams
- - 2. Object Streams
- - 3. ByteArray Streams
- - 4. Buffered Streams
- - 5. Reader and Writer
+  1. File Streams
+  2. Object Streams
+  3. ByteArray Streams
+  4. Buffered Streams
+  5. Reader and Writer
 - Key Considerations
 - Best Practices
   
 🔗 *Code Link:*
-👉 [Java Streams](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/JavaStreams).
+👉 [Submission of Java Streams](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/JavaStreams).
+
+---
+
+# 📅 (Date: 20-Jan-2026) 
+## Exceptions
+
+**-Topics Covered**
+- Types of Exceptions
+  - Checked Exceptions
+  - Unchecked Exceptions
+  - Custom Exceptions
+- Handling Exceptions 
+  - try-catch blocks
+  - try-catch-finally blocks
+  - try-with-resources statement
+  - throws clause
+  - throw statement
+- Creating Custom Exceptions
+- Extending Exception Class
+- Defining Constructors
+  
+🔗 *Code Link:*
+👉 [Submission of Exceptions](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/ExceptionHandling).
+
+---
+
+
+# 📅 (Date: 21-Jan-2026) 
+## Regex & Junit
+
+**-Topics Covered**
+- Regex 
+- MetaCharacter
+- Quantifier
+
+- Common Patterns:
+   - Email Validation
+   - Password Strength
+   - Phone Number Format 
+- Java Regex API 
+  - Pattern
+  - Matcher
+- Methods:
+  - find()
+  - matches()
+  - replaceAll()
+- Introduction to JUnit Framework
+  - JUnit Annotations
+  - Writing Test Cases
+  - Structure of a Test Class
+- Assertions
+  
+🔗 *Code Link:*
+👉 [Submission of Regex & JUnit](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/ExceptionHandling).
 
 ---
