@@ -1,0 +1,11 @@
+[ {
+  "class" : "UserService",
+  "method" : "login",
+  "action" : "USER_LOGIN",
+  "timestamp" : "2026-02-02T12:04:33.956"
+}, {
+  "class" : "UserService",
+  "method" : "uploadFile",
+  "action" : "FILE_UPLOAD",
+  "timestamp" : "2026-02-02T12:04:33.957"
+} ]
