@@ -53,13 +53,14 @@ Learned how to work with **CSV (Comma-Separated Values)** files for real-world d
 
 ---
 
-## 🗓 Day 2 – Real-world scenario-based problems involving Annotations, Reflection, CSV & JSON data handling.
+## 🗓 Day 3 – Real-world scenario-based problems involving Annotations, Reflection, CSV & JSON data handling.
 **(Date: 27-Jan-2026)**
 
 - Problem 1 : HealthCheckPro – API Metadata Validator (Annotations + Reflection)
 - Problem 2 : MarkMate – Student Marksheet Generator (CSV + JSON)
 - Problem 3 : EventTracker – Auto Audit System (Annotations + Reflection + JSON)
+- 
 🔗 *Code Link:*  
-👉 [Scenario Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-iostream-practice/java-iostream-practice/scenario-based-codebase/IOScenarioProblemsPractice/src/com)
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-iostream-practice/java-iostream-practice/scenario-based-codebase/IOScenarioProblemsPractice/src/com)
 
 ---
