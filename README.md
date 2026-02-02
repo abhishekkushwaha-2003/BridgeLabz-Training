@@ -180,3 +180,18 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 👉 [Submission of CSV Data Handling ](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-iostream-practice/java-iostream-practice/gcr-code-base/JavaInputOutputStreamsPractice/src/com/CSVDataHandling).
 
 ---
+
+# 📅 (Date: 24-Jan-2026) 
+## JSON Data
+
+**-Topics Covered**
+- Introduction to JSON
+- Reading JSON Data
+- Writing JSON Data
+- Parsing JSON Data
+- JSON Schema Validation
+  
+🔗 *Code Link:*
+👉 [Submission of JSON Data](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-iostream-practice/java-iostream-practice/gcr-code-base/JavaInputOutputStreamsPractice/src/com/JSON).
+
+---
