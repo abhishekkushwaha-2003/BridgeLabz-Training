@@ -51,8 +51,8 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 
 ---
 
-# 📅 (Date: 16-Jan-2026) 
-## Java Collections
+### 🗓 Day 2 – Java Collections 
+**(Date: 16-Jan-2026)**
 
 **-Topics Covered**
 - Overview of Collections Framework
@@ -70,8 +70,8 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 
 ---
 
-# 📅 (Date: 19-Jan-2026) 
-## Java Streams
+### 🗓 Day 3 – Java Streams
+**(Date: 19-Jan-2026)**
 
 **-Topics Covered**
 - Java I/O Streams
@@ -89,8 +89,8 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 
 ---
 
-# 📅 (Date: 20-Jan-2026) 
-## Exceptions
+### 🗓 Day 4 – Exceptions 
+**(Date: 20-Jan-2026)**
 
 **-Topics Covered**
 - Types of Exceptions
@@ -112,8 +112,8 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 
 ---
 
-# 📅 (Date: 21-Jan-2026) 
-## Regex & Junit
+### 🗓 Day 5 – Regex & Junit
+**(Date: 21-Jan-2026)**
 
 **-Topics Covered**
 - Regex 
@@ -144,8 +144,8 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 
 ---
 
-# 📅 (Date: 22-Jan-2026) 
-## Annotations & Reflection
+### 🗓 Day 6 – Annotations & Reflection 
+**(Date: 22-Jan-2026)**
 
 **-Topics Covered**
 - Introduction to Annotations
@@ -166,32 +166,18 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 
 ---
 
-# 📅 (Date: 23-Jan-2026) 
-## CSV Data Handling
+### 🗓 Day 7 – Real-world scenario-based problems involving Collections, Generics, I/O Streams, and Regex.
+**(Date: 23-Jan-2026)**
 
-**-Topics Covered**
-- Introduction to CSV
-  - Reading CSV Files
-  - Writing CSV Files
-  - Parsing CSV Data
-- Data Validation
-  
+- Problem 1: ResumeAnalyzer – Smart Resume Filtering System
+- Problem 2: TravelLog – Trip Organizer for Backpackers
+- Problem 3: FeedbackGuru – Smart Survey Analyzer
+- Problem 4: CodeRepoCleaner – Java File Scanner and Organizer
+- Problem 5: ExamScanner – Digital Answer Sheet Validator
+
 🔗 *Code Link:*
-👉 [Submission of CSV Data Handling ](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-iostream-practice/java-iostream-practice/gcr-code-base/JavaInputOutputStreamsPractice/src/com/CSVDataHandling).
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/CollectionsScenarioBasedProblems/src/Day1).
 
 ---
 
-# 📅 (Date: 24-Jan-2026) 
-## JSON Data
 
-**-Topics Covered**
-- Introduction to JSON
-- Reading JSON Data
-- Writing JSON Data
-- Parsing JSON Data
-- JSON Schema Validation
-  
-🔗 *Code Link:*
-👉 [Submission of JSON Data](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-iostream-practice/java-iostream-practice/gcr-code-base/JavaInputOutputStreamsPractice/src/com/JSON).
-
----
