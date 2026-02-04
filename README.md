@@ -48,4 +48,6 @@ BridgeLabz-Training/
 - **Static methods** for interface-level utilities.
 - Method resolution rules (class wins, conflict resolution).
 - Marker interfaces vs **annotations** (modern alternative).
+  
 
+---
