@@ -50,6 +50,7 @@ public class Student {
     }
 
     public String toString() {
-        return name + " | " + department + " | Rank=" + rank;
+    	return id + " | " + name + " | " + age + " | " +
+                gender + " | " + city + " | " + rank + " | " + department;
     }
 }
