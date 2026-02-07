@@ -1,0 +1,14 @@
+package com.Java8LogicalQuestions;
+
+import java.util.List;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+
+public class ReverseStringinalist {
+
+		    public static void main(String[] args) {
+		    	   List<String>list=List.of("java","api");
+			List<String>newList= list.stream().map(s->new StringBuilder(s).reverse().toString()).collect(Collectors.toList());
+			 System.out.println(newList);
+		    }
+}
