@@ -1,0 +1,109 @@
+CREATE DATABASE employeeDB;
+USE employeeDB;
+
+CREATE TABLE employee (
+    empID INT PRIMARY KEY AUTO_INCREMENT,
+    empName VARCHAR(100),
+    empDepartment VARCHAR(50),
+    empSalary DOUBLE
+);
+
+mysql> CREATE DATABASE employeeDB;
+Query OK, 1 row affected (0.05 sec)
+
+mysql> USE employeeDB;
+Database changed
+mysql> CREATE TABLE employee (
+    ->     empID INT PRIMARY KEY AUTO_INCREMENT,
+    ->     empName VARCHAR(100),
+    ->     empDepartment VARCHAR(50),
+    ->     empSalary DOUBLE
+    -> );
+
+mysql> SELECT * FROM employee;
+Empty set (0.02 sec)
+
+mysql> show tables;
++----------------------+
+| Tables_in_employeedb |
++----------------------+
+| employee             |
++----------------------+
+1 row in set (0.01 sec)
+
+mysql> SELECT * FROM employee;
+Empty set (0.00 sec)
+
+mysql> INSERT INTO employee (empName, empDepartment, empSalary)
+    -> VALUES ('Abhishek', 'AIML', 45000),
+    -> ('Rajiv', 'EC', 40000),
+    -> ('Ayush', 'CSE', 55000),
+    -> ('Harshal', 'IT', 50000),
+    -> ('Joe', 'ME', 25000);
+Query OK, 5 rows affected (0.03 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> show tables;
++----------------------+
+| Tables_in_employeedb |
++----------------------+
+| employee             |
++----------------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM employee;
++-------+----------+---------------+-----------+
+| empID | empName  | empDepartment | empSalary |
++-------+----------+---------------+-----------+
+|     1 | Abhishek | AIML          |     45000 |
+|     2 | Rajiv    | EC            |     40000 |
+|     3 | Ayush    | CSE           |     55000 |
+|     4 | Harshal  | IT            |     50000 |
+|     5 | Joe      | ME            |     25000 |
++-------+----------+---------------+-----------+
+5 rows in set (0.00 sec)
+
+mysql> UPDATE employee
+    -> SET empSalary = 65000
+    -> WHERE empID = 1;
+Query OK, 1 row affected (0.02 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM employee;
++-------+----------+---------------+-----------+
+| empID | empName  | empDepartment | empSalary |
++-------+----------+---------------+-----------+
+|     1 | Abhishek | AIML          |     65000 |
+|     2 | Rajiv    | EC            |     40000 |
+|     3 | Ayush    | CSE           |     55000 |
+|     4 | Harshal  | IT            |     50000 |
+|     5 | Joe      | ME            |     25000 |
++-------+----------+---------------+-----------+
+5 rows in set (0.00 sec)
+
+mysql> DELETE FROM employee
+    -> WHERE empID = 5;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> SELECT * FROM employee;
++-------+----------+---------------+-----------+
+| empID | empName  | empDepartment | empSalary |
++-------+----------+---------------+-----------+
+|     1 | Abhishek | AIML          |     65000 |
+|     2 | Rajiv    | EC            |     40000 |
+|     3 | Ayush    | CSE           |     55000 |
+|     4 | Harshal  | IT            |     50000 |
++-------+----------+---------------+-----------+
+4 rows in set (0.00 sec)
+
+
+mysql> SELECT * FROM employee
+    -> WHERE empName = 'Abhishek';
++-------+----------+---------------+-----------+
+| empID | empName  | empDepartment | empSalary |
++-------+----------+---------------+-----------+
+|     1 | Abhishek | AIML          |     65000 |
++-------+----------+---------------+-----------+
+1 row in set (0.00 sec)
+
+
