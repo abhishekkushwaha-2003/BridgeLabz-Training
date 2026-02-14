@@ -1,1 +1,255 @@
-nnn
+CREATE DATABASE libraryDB;
+
+USE libraryDB;
+
+CREATE TABLE book (
+    bookID INT PRIMARY KEY AUTO_INCREMENT,
+    bookName VARCHAR(100),
+    category VARCHAR(50),
+    available INT
+);
+
+
+CREATE TABLE student (
+    studentID INT PRIMARY KEY AUTO_INCREMENT,
+    studentName VARCHAR(100)
+);
+
+CREATE TABLE issue (
+    issueID INT PRIMARY KEY AUTO_INCREMENT,
+    studentID INT,
+    bookID INT,
+    issueDate DATE,
+    returnDate DATE
+);
+
+INSERT INTO book VALUES
+(1, 'Java', 'Programming', 3),
+(2, 'DBMS', 'Database', 2);
+
+
+INSERT INTO student VALUES
+(1, 'Abhishek'),
+(2, 'Ayush');
+
+INSERT INTO issue (studentID, bookID, issueDate)
+VALUES (1, 1, CURDATE());
+
+UPDATE book
+SET available = available - 1
+WHERE bookID = 1;
+
+
+UPDATE issue
+SET returnDate = CURDATE()
+WHERE issueID = 1;
+
+UPDATE book
+SET available = available + 1
+WHERE bookID = 1;
+
+SELECT 
+studentID,
+bookID,
+GREATEST(DATEDIFF(CURDATE(), issueDate) - 7, 0) * 10 AS fine
+FROM issue;
+
+
+SELECT * FROM book
+WHERE bookName = 'Java';
+
+SELECT * FROM book
+WHERE category = 'Programming';
+
+
+
+mysql> CREATE DATABASE libraryDB;
+Query OK, 1 row affected (0.12 sec)
+
+mysql> USE libraryDB;
+Database changed
+mysql> CREATE TABLE book (
+    ->     bookID INT PRIMARY KEY AUTO_INCREMENT,
+    ->     bookName VARCHAR(100),
+    ->     category VARCHAR(50),
+    ->     available INT
+    -> );
+Query OK, 0 rows affected (0.15 sec)
+
+mysql> CREATE TABLE student (
+    ->     studentID INT PRIMARY KEY AUTO_INCREMENT,
+    ->     studentName VARCHAR(100)
+    -> );
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> CREATE TABLE issue (
+    ->     issueID INT PRIMARY KEY AUTO_INCREMENT,
+    ->     studentID INT,
+    ->     bookID INT,
+    ->     issueDate DATE,
+    ->     returnDate DATE
+    -> );
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> show tables;
++---------------------+
+| Tables_in_librarydb |
++---------------------+
+| book                |
+| issue               |
+| student             |
++---------------------+
+3 rows in set (0.03 sec)
+
+mysql> INSERT INTO book VALUES
+    -> (1, 'Java', 'Programming', 3),
+    -> (2, 'DBMS', 'Database', 2);
+Query OK, 2 rows affected (0.02 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> show tables;
++---------------------+
+| Tables_in_librarydb |
++---------------------+
+| book                |
+| issue               |
+| student             |
++---------------------+
+3 rows in set (0.00 sec)
+
+mysql> INSERT INTO student VALUES
+    -> (1, 'Abhishek'),
+    -> (2, 'Ayush');
+Query OK, 2 rows affected (0.02 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql>
+mysql> INSERT INTO issue (studentID, bookID, issueDate)
+    -> VALUES (1, 1, CURDATE());
+Query OK, 1 row affected (0.02 sec)
+
+mysql> show tables;
++---------------------+
+| Tables_in_librarydb |
++---------------------+
+| book                |
+| issue               |
+| student             |
++---------------------+
+3 rows in set (0.00 sec)
+
+mysql> select * from book;
++--------+----------+-------------+-----------+
+| bookID | bookName | category    | available |
++--------+----------+-------------+-----------+
+|      1 | Java     | Programming |         3 |
+|      2 | DBMS     | Database    |         2 |
++--------+----------+-------------+-----------+
+2 rows in set (0.00 sec)
+
+mysql> select * from student;
++-----------+-------------+
+| studentID | studentName |
++-----------+-------------+
+|         1 | Abhishek    |
+|         2 | Ayush       |
++-----------+-------------+
+2 rows in set (0.00 sec)
+
+mysql> select * from issue;
++---------+-----------+--------+------------+------------+
+| issueID | studentID | bookID | issueDate  | returnDate |
++---------+-----------+--------+------------+------------+
+|       1 |         1 |      1 | 2026-02-09 | NULL       |
++---------+-----------+--------+------------+------------+
+1 row in set (0.00 sec)
+
+mysql> UPDATE book
+    -> SET available = available - 1
+    -> WHERE bookID = 1;
+Query OK, 1 row affected (0.02 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from book;
++--------+----------+-------------+-----------+
+| bookID | bookName | category    | available |
++--------+----------+-------------+-----------+
+|      1 | Java     | Programming |         2 |
+|      2 | DBMS     | Database    |         2 |
++--------+----------+-------------+-----------+
+2 rows in set (0.00 sec)
+
+mysql> UPDATE issue
+    -> SET returnDate = CURDATE()
+    -> WHERE issueID = 1;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from issue;
++---------+-----------+--------+------------+------------+
+| issueID | studentID | bookID | issueDate  | returnDate |
++---------+-----------+--------+------------+------------+
+|       1 |         1 |      1 | 2026-02-09 | 2026-02-09 |
++---------+-----------+--------+------------+------------+
+1 row in set (0.00 sec)
+
+mysql> UPDATE book
+    -> SET available = available + 1
+    -> WHERE bookID = 1;
+Query OK, 1 row affected (0.02 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from book;
++--------+----------+-------------+-----------+
+| bookID | bookName | category    | available |
++--------+----------+-------------+-----------+
+|      1 | Java     | Programming |         3 |
+|      2 | DBMS     | Database    |         2 |
++--------+----------+-------------+-----------+
+2 rows in set (0.00 sec)
+
+mysql> SELECT
+    -> studentID,
+    -> bookID,
+    -> GREATEST(DATEDIFF(CURDATE(), issueDate) - 7, 0) * 10 AS fine
+    -> FROM issue;
++-----------+--------+------+
+| studentID | bookID | fine |
++-----------+--------+------+
+|         1 |      1 |    0 |
++-----------+--------+------+
+1 row in set (0.01 sec)
+
+mysql> SELECT * FROM book
+    -> WHERE bookName = 'Java';
++--------+----------+-------------+-----------+
+| bookID | bookName | category    | available |
++--------+----------+-------------+-----------+
+|      1 | Java     | Programming |         3 |
++--------+----------+-------------+-----------+
+1 row in set (0.00 sec)
+
+mysql>
+mysql> SELECT * FROM book
+    -> WHERE category = 'Programming';
++--------+----------+-------------+-----------+
+| bookID | bookName | category    | available |
++--------+----------+-------------+-----------+
+|      1 | Java     | Programming |         3 |
++--------+----------+-------------+-----------+
+1 row in set (0.00 sec)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
