@@ -14,7 +14,6 @@ public class BorrowDAO {
 
         try {
 
-            // Decrease available count
             PreparedStatement ps1 = con.prepareStatement(
                     "UPDATE book SET available = available - 1 WHERE bookID=? AND available > 0");
             ps1.setInt(1, bookID);
@@ -22,7 +21,7 @@ public class BorrowDAO {
             if (ps1.executeUpdate() == 0)
                 throw new RuntimeException("Book not available");
 
-            // Insert into issue table
+
             PreparedStatement ps2 = con.prepareStatement(
                     "INSERT INTO issue(studentID, bookID, issueDate) VALUES(?,?,CURDATE())");
 
@@ -74,6 +73,6 @@ public class BorrowDAO {
         ps3.executeUpdate();
 
         con.commit();
-        System.out.println("Returned successfully. Fine = ₹" + fine);
+        System.out.println("Returned successfully. Fine = " + fine);
     }
 }
