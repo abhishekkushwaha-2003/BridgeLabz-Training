@@ -26,7 +26,6 @@ public class BankingDAO {
             credit.setInt(2, to);
             credit.executeUpdate();
 
-            // Insert into transactions
             PreparedStatement history = con.prepareStatement(
                     "INSERT INTO transactions (from_account, to_account, amount) VALUES (?, ?, ?)");
             history.setInt(1, from);
