@@ -1,109 +1,109 @@
-CREATE DATABASE employeeDB;
-USE employeeDB;
+mysql> CREATE DATABASE banking_db;
+Query OK, 1 row affected (0.10 sec)
 
-CREATE TABLE employee (
-    empID INT PRIMARY KEY AUTO_INCREMENT,
-    empName VARCHAR(100),
-    empDepartment VARCHAR(50),
-    empSalary DOUBLE
-);
-
-mysql> CREATE DATABASE employeeDB;
-Query OK, 1 row affected (0.05 sec)
-
-mysql> USE employeeDB;
+mysql> USE banking_db;
 Database changed
-mysql> CREATE TABLE employee (
-    ->     empID INT PRIMARY KEY AUTO_INCREMENT,
-    ->     empName VARCHAR(100),
-    ->     empDepartment VARCHAR(50),
-    ->     empSalary DOUBLE
+mysql> CREATE TABLE accounts (
+    ->     account_id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     account_holder VARCHAR(100),
+    ->     balance DECIMAL(12,2) NOT NULL DEFAULT 0,
+    ->     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     -> );
+Query OK, 0 rows affected (0.11 sec)
 
-mysql> SELECT * FROM employee;
-Empty set (0.02 sec)
-
-mysql> show tables;
-+----------------------+
-| Tables_in_employeedb |
-+----------------------+
-| employee             |
-+----------------------+
-1 row in set (0.01 sec)
-
-mysql> SELECT * FROM employee;
-Empty set (0.00 sec)
-
-mysql> INSERT INTO employee (empName, empDepartment, empSalary)
-    -> VALUES ('Abhishek', 'AIML', 45000),
-    -> ('Rajiv', 'EC', 40000),
-    -> ('Ayush', 'CSE', 55000),
-    -> ('Harshal', 'IT', 50000),
-    -> ('Joe', 'ME', 25000);
-Query OK, 5 rows affected (0.03 sec)
-Records: 5  Duplicates: 0  Warnings: 0
+mysql> CREATE TABLE transactions (
+    ->     transaction_id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     from_account INT,
+    ->     to_account INT,
+    ->     amount DECIMAL(12,2),
+    ->     transaction_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    ->
+    ->     FOREIGN KEY (from_account) REFERENCES accounts(account_id),
+    ->     FOREIGN KEY (to_account) REFERENCES accounts(account_id)
+    -> );
+Query OK, 0 rows affected (0.12 sec)
 
 mysql> show tables;
 +----------------------+
-| Tables_in_employeedb |
+| Tables_in_banking_db |
 +----------------------+
-| employee             |
+| accounts             |
+| transactions         |
 +----------------------+
-1 row in set (0.00 sec)
+2 rows in set (0.04 sec)
 
-mysql> SELECT * FROM employee;
-+-------+----------+---------------+-----------+
-| empID | empName  | empDepartment | empSalary |
-+-------+----------+---------------+-----------+
-|     1 | Abhishek | AIML          |     45000 |
-|     2 | Rajiv    | EC            |     40000 |
-|     3 | Ayush    | CSE           |     55000 |
-|     4 | Harshal  | IT            |     50000 |
-|     5 | Joe      | ME            |     25000 |
-+-------+----------+---------------+-----------+
-5 rows in set (0.00 sec)
+mysql> INSERT INTO accounts (account_holder, balance)
+    -> VALUES ('Abhishek', 10000),
+    ->        ('Rajeev', 5000);
+Query OK, 2 rows affected (0.03 sec)
+Records: 2  Duplicates: 0  Warnings: 0
 
-mysql> UPDATE employee
-    -> SET empSalary = 65000
-    -> WHERE empID = 1;
-Query OK, 1 row affected (0.02 sec)
+mysql> Select * from accounts;
++------------+----------------+----------+---------------------+
+| account_id | account_holder | balance  | created_at          |
++------------+----------------+----------+---------------------+
+|          1 | Abhishek       | 10000.00 | 2026-02-16 16:22:17 |
+|          2 | Rajeev         |  5000.00 | 2026-02-16 16:22:17 |
++------------+----------------+----------+---------------------+
+2 rows in set (0.00 sec)
+
+mysql> START TRANSACTION;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> UPDATE accounts
+    -> SET balance = balance - 2000
+    -> WHERE account_id = 1;
+Query OK, 1 row affected (0.01 sec)
 Rows matched: 1  Changed: 1  Warnings: 0
 
-mysql> SELECT * FROM employee;
-+-------+----------+---------------+-----------+
-| empID | empName  | empDepartment | empSalary |
-+-------+----------+---------------+-----------+
-|     1 | Abhishek | AIML          |     65000 |
-|     2 | Rajiv    | EC            |     40000 |
-|     3 | Ayush    | CSE           |     55000 |
-|     4 | Harshal  | IT            |     50000 |
-|     5 | Joe      | ME            |     25000 |
-+-------+----------+---------------+-----------+
-5 rows in set (0.00 sec)
+mysql> Select * from accounts;
++------------+----------------+---------+---------------------+
+| account_id | account_holder | balance | created_at          |
++------------+----------------+---------+---------------------+
+|          1 | Abhishek       | 8000.00 | 2026-02-16 16:22:17 |
+|          2 | Rajeev         | 5000.00 | 2026-02-16 16:22:17 |
++------------+----------------+---------+---------------------+
+2 rows in set (0.00 sec)
 
-mysql> DELETE FROM employee
-    -> WHERE empID = 5;
-Query OK, 1 row affected (0.02 sec)
+mysql> UPDATE accounts
+    -> SET balance = balance + 2000
+    -> WHERE account_id = 2;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
 
-mysql> SELECT * FROM employee;
-+-------+----------+---------------+-----------+
-| empID | empName  | empDepartment | empSalary |
-+-------+----------+---------------+-----------+
-|     1 | Abhishek | AIML          |     65000 |
-|     2 | Rajiv    | EC            |     40000 |
-|     3 | Ayush    | CSE           |     55000 |
-|     4 | Harshal  | IT            |     50000 |
-+-------+----------+---------------+-----------+
-4 rows in set (0.00 sec)
+mysql> Select * from accounts;
++------------+----------------+---------+---------------------+
+| account_id | account_holder | balance | created_at          |
++------------+----------------+---------+---------------------+
+|          1 | Abhishek       | 8000.00 | 2026-02-16 16:22:17 |
+|          2 | Rajeev         | 7000.00 | 2026-02-16 16:22:17 |
++------------+----------------+---------+---------------------+
+2 rows in set (0.00 sec)
 
+mysql> INSERT INTO transactions (from_account, to_account, amount)
+    -> VALUES (1, 2, 2000);
+Query OK, 1 row affected (0.00 sec)
 
-mysql> SELECT * FROM employee
-    -> WHERE empName = 'Abhishek';
-+-------+----------+---------------+-----------+
-| empID | empName  | empDepartment | empSalary |
-+-------+----------+---------------+-----------+
-|     1 | Abhishek | AIML          |     65000 |
-+-------+----------+---------------+-----------+
+mysql> COMMIT;
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> SELECT account_holder, balance
+    -> FROM accounts
+    -> WHERE account_id = 1;
++----------------+---------+
+| account_holder | balance |
++----------------+---------+
+| Abhishek       | 8000.00 |
++----------------+---------+
 1 row in set (0.00 sec)
 
+mysql> SELECT * FROM transactions
+    -> WHERE from_account = 1 OR to_account = 1;
++----------------+--------------+------------+---------+---------------------+
+| transaction_id | from_account | to_account | amount  | transaction_date    |
++----------------+--------------+------------+---------+---------------------+
+|              1 |            1 |          2 | 2000.00 | 2026-02-16 16:23:30 |
++----------------+--------------+------------+---------+---------------------+
+1 row in set (0.00 sec)
 
+mysql>
