@@ -900,6 +900,17 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 🔗 *Code Link:*
 👉 [Submission of CSV Data Handling ](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-iostream-practice/java-iostream-practice/gcr-code-base/JavaInputOutputStreamsPractice/src/com/CSVDataHandling).
 
+
+###  Real-world scenario-based problems involving Collections, Generics, I/O Streams, and Regex
+
+- Problem 1: ResumeAnalyzer – Smart Resume Filtering System
+- Problem 2: TravelLog – Trip Organizer for Backpackers
+- Problem 3: FeedbackGuru – Smart Survey Analyzer
+- Problem 4: CodeRepoCleaner – Java File Scanner and Organizer
+- Problem 5: ExamScanner – Digital Answer Sheet Validator
+
+🔗 *Code Link:*
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/CollectionsScenarioBasedProblems/src/Day1).
 ---
 
 # 📅 (Date: 24-Jan-2026) 
@@ -915,7 +926,385 @@ Studied the Java Collections Framework to manage groups of objects efficiently u
 🔗 *Code Link:*
 👉 [Submission of JSON Data](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-iostream-practice/java-iostream-practice/gcr-code-base/JavaInputOutputStreamsPractice/src/com/JSON).
 
+###  Real-world scenario-based problems involving Collections, Generics, I/O Streams, and Regex.
+**(Date: 24-Jan-2026)**
+
+- Problem 1: MedInventory – Smart Hospital Inventory Tracker
+- Problem 2: ChatLogParser – Messaging Pattern Analyzer
+- Problem 3: SongVault – Personal Music Library Manager
+- Problem 4: ExamResultUploader – Bulk Marks Processing
+- Problem 5: DealTracker – E-Commerce Discount Validator
+
+🔗 *Code Link:*
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/CollectionsScenarioBasedProblems/src/Day2).
+
 ---
+
+**(Date: 27-Jan-2026)**
+## Real-world scenario-based problems involving Annotations, Reflection, CSV & JSON data handling
+
+- Problem 1 : HealthCheckPro – API Metadata Validator (Annotations + Reflection)
+- Problem 2 : MarkMate – Student Marksheet Generator (CSV + JSON)
+- Problem 3 : EventTracker – Auto Audit System (Annotations + Reflection + JSON)
+- 
+🔗 *Code Link:*  
+👉 [Scenario Based Problems](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-iostream-practice/java-iostream-practice/scenario-based-codebase/IOScenarioProblemsPractice/src/com)
+
+---
+
+## 📅 Learning Java-8 features
+
+---
+
+### 📅 Day 1 – Java 8 Features & Advanced Java Practice  
+**(Date: 27-Jan-2026)**            
+**Branch:** `java8-programming-practice`
+
+#### 📂 Project Structure
+
+````text
+BridgeLabz-Training/
+│
+├── 📁 java8-programming-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 Java8Programming/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 LamdaExpressions/
+|   |               ├── 📁 MethodReferences/
+|   |               └── 📁 interfaces/
+|   └── 📁 scenario-based-codebase/
+|
+└── README.md
+````
+
+#### 🔹 Java 8 Core Concepts Learned
+#### Lambda Expressions
+- Learned **lambda expressions** as concise implementations of functional interfaces (SAM).
+- Understood **target typing**, **type inference**, and **effectively final variables**.
+- Compared **anonymous classes vs lambdas** (`this` behavior).
+- Applied lambdas in:
+  - Dynamic sorting (`Comparator`), Filtering (`Predicate`), Stream pipelines (`filter`, `map`, `collect`)
+
+#### Method References
+- Studied method references as readable alternatives to lambdas.
+- Types covered:
+  - Static (`Class::method`), Instance (`obj::method`), Unbound (`Class::instanceMethod`), Constructor (`Class::new`)
+- Learned overload ambiguity handling and when to prefer lambdas.
+
+#### Interfaces & Java 8 Enhancements
+- Deep understanding of **@FunctionalInterface** and SAM conversion.
+- Used built-in interfaces:
+  - `Supplier`, `Consumer`, `Function`, `Predicate`
+  - `UnaryOperator`, `BinaryOperator`, `Comparator`
+- Created custom functional interfaces with default methods.
+- **Default methods** for backward compatibility.
+- **Static methods** for interface-level utilities.
+- Method resolution rules (class wins, conflict resolution).
+- Marker interfaces vs **annotations** (modern alternative).
+
+🔗 **Code Links:**  
+👉 [Lamda Expressions](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/LambdaExpression)
+👉 [Functional Interfaces](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/FunctionalInterfaces)
+
+---
+
+
+### 📅 Day 2 – Stream API (Java 8+)
+*(Date: 28-Jan-2026)*     
+*Branch:* java8-programming-practice
+
+#### 🔹 Topics Learned
+- *Stream API:* Functional-style processing of collections  
+  source → intermediate operations → terminal operation
+- *Intermediate Operations:* filter, map, sorted, distinct, limit
+- *Terminal Operations:* collect, forEach, reduce, count
+- *Parallel Streams:* parallelStream(), ForkJoinPool, ordering with forEachOrdered
+- Lazy evaluation and stream pipeline execution
+- Stateless vs stateful operations
+
+#### 🔹 Practice Work
+- Built multiple stream pipelines on collections
+- Solved employee-based real-time problems using Stream API
+- Focused on filtering, mapping, sorting, and reduction logic
+
+🔗 *Code Link:*  
+👉 [Stream API](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/StreamAPI)
+
+---
+
+### 📅 Day 3 – Collectors & Java 8 Features
+*(Date: 29-Jan-2026)*            
+*Branch:* java8-programming-practice
+
+#### 🔹 Topics Learned
+- *Collectors:* Accumulating stream results
+  - toList(), toSet(), toMap()
+  - joining()
+  - groupingBy()
+  - partitioningBy()
+  - summarizingInt()
+- *forEach():* Iteration using Consumer
+- *Parallel Streams:* parallelStream(), forEachOrdered()
+- Performance considerations & ForkJoinPool basics
+
+#### 🔹 Scenario-Based Practice
+- Solved *10 real-time Employee Stream problems*, including:
+  - Gender-wise count & salary analysis
+  - Department-wise grouping & averages
+  - Highest/lowest & top-N salary queries
+  - Experience-based and joining-year filters
+
+🔗 *Code Link:*  
+👉 [Collectors](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/Collectors)
+
+---
+
+### 📅 Day 4 – Lambda Expressions & Stream API Scenarios(Java 8)
+*(Date: 30-Jan-2026)*         
+*Branch:* java8-programming-practice
+
+#### 🔹 Work Done
+- Practiced *Lambda Expressions* with real-time scenarios (Student, Employee, Banking, E-Commerce)
+- Used lambdas for *sorting, filtering, calculations, validation, and threading*
+- Solved *advanced Stream API problems* on Students & Employees
+- Applied filter, map, sorted, limit, count, flatMap
+- Performed *grouping, aggregation, min/max, ranking, and partitioning*
+- Converted collections to *Map* and handled *top/bottom N queries*
+
+🔗 *Code Link:* 
+👉 [Java8 Scenarios](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based-codebase/Java8ScenarioBasedProblems/src/com/StreamScenarioBasedQuestions)
+
+---
+
+### 📅 Day 1 – Design Principles, GoF Patterns & Optional (Java 8)
+**Date: 31-Jan-2026)**         
+**Branch:** `java-design-pattern-practice`
+
+#### 📂 Project Structure
+
+```
+BridgeLabz-Training/
+|
+├── 📁 java-design-pattern-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 SolutionDesigningProblems/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 DesignPattern/
+|   |               └── 📁 Multithreading/
+|   └── 📁 scenario-based-codebase/
+|
+└── README.md
+```
+
+#### 🔹 Design Principles Covered
+- **SOLID Principles:** SRP, OCP, LSP, ISP, DIP  
+- **Clean Code Principles:** DRY, KISS, YAGNI  
+- Focus on maintainability, scalability, and loose coupling
+
+#### 🔹 GoF Design Patterns
+- **Singleton Pattern** – controlled object creation
+- **Factory Pattern** – abstraction of object instantiation
+- **Builder Pattern** – step-by-step object construction
+- **Observer Pattern** – event-based communication
+- Introduction to **UML diagrams** for pattern representation
+
+#### 🔹 Java 8 – Optional Class
+- Used to eliminate `NullPointerException`
+- Practiced `of()`, `ofNullable()`, `isPresent()`, `ifPresent()`
+- Applied `orElse()`, `orElseGet()`, `orElseThrow()` for safe defaults
+- Solved real-world scenarios across **Student, Employee, Banking,
+  E-Commerce, and System utility** modules
+
+🔗 **Code Link:** 
+👉 [Design Patterns](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/SolutionDesigningProblems/src/com/DesignPatterns/SmartUniversityLibraryManagementSystem)
+
+---
+
+### 📅 Day 2 – Java Multithreading
+**(Date: 02-Feb-2026)**                  
+**Branch:** `java-design-pattern-practice`
+
+#### 🔹 Core Concepts
+- **Process:** OS-level execution unit containing one or more threads  
+- **Thread:** Lightweight sub-process; smallest unit of execution  
+- Threads share process memory but have independent execution paths  
+- **Multithreading:** Enables parallel task execution and better CPU utilization
+
+#### 🔹 Pros & Cons
+**Pros:** Better resource usage, faster execution, responsive GUI, fault isolation  
+**Cons:** Complex code, synchronization overhead, debugging difficulty, deadlock & starvation risks
+
+#### 🔹 Thread Lifecycle
+- New → Runnable → Running → Blocked/Waiting → Terminated  
+- Managed by JVM thread scheduler
+
+#### 🔹 Thread Creation
+- Extending `Thread` class  
+- Implementing `Runnable` interface (preferred for flexibility)
+
+#### 🔹 Thread Class Highlights
+- Methods practiced: `start()`, `run()`, `sleep()`, `join()`, `yield()`, `isAlive()`  
+- Thread naming, priority, interruption handling  
+- **User vs Daemon threads** and JVM termination behavior  
+- Explored `Thread.State`, `currentThread()`, and lifecycle monitoring
+
+🔗 **Code Link:** 
+👉 [Multithreading](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/SolutionDesigningProblems/src/com/MultiThreading)
+
+---
+
+### 📅 Day 3 – Java Multithreading Scenarios
+**(Date: 03-Feb-2026)**  
+**Branches:** `java-design-pattern-practice`
+
+#### 🔹 Multithreading Scenario – Bank Transactions
+Implemented a **thread-safe banking system** with:
+- Concurrent **deposit & withdrawal** operations
+- Multiple customers as independent threads
+- Proper **synchronization** to prevent race conditions
+- Correct balance updates under concurrent access
+- Driver program demonstrating safe parallel execution
+
+🔗 **Code Link:** 
+👉 [Multithreading Scenarios](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/scenario-based-codebase/SolutionDesigningScenarioProblems/src/com/Multithreading/BankTransactions)
+
+---
+
+###📅 Day 5 – Java 8 Stream API (Scenario-Based) & Multithreading
+*(Date: 03-Feb-2026)*         
+*Branch:* java8-programming-practice
+
+#### 🔹 Java 8 Stream API – Scenario Practice
+Solved *30+ real-world logical problems using Java Streams only*, focusing on:
+- Character & word frequency analysis
+- First / all non-repeating characters
+- Removing duplicates & filtering characters
+- String cleansing (alphabets, digits, alphanumeric)
+- Numeric operations: sum, max, top-K, even/odd partitioning
+- List & Map transformations, sorting, grouping, flattening
+- Advanced queries like kth smallest, longest string, intersections
+
+Emphasis on *filter, map, flatMap, distinct, sorted, limit, reduce, Collectors*
+
+🔗 *Code Link:* 
+👉 [Stream API Scenarios](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based-codebase/Java8ScenarioBasedProblems/src/com/StreamAPIScenarioBasedQuestions)
+
+---
+
+### 📅 Day 6 – Java 8 Stream API (Conversions)
+*(Date: 04-Feb-2026)*           
+*Branch:* java8-programming-practice
+
+#### 🔹 What I Practiced
+Solved *conversion-based logical problems using Java 8 Streams*, focusing on transforming data between different collection types.
+
+#### 🔹 Key Conversions
+- *List ↔ Map:* indexing, frequency count, grouping, handling duplicate keys
+- *Map ↔ List:* keys, values, entries, sorting & filtering
+- *List ↔ Set:* removing duplicates, ordering, sorting
+- *Array ↔ Collections:* 1D/2D arrays, flattening, distinct mapping
+- *Object Conversions:* grouping, flattening, composite keys
+- *Other:* Stream/Optional conversions, formatted strings
+
+✔ Strengthened hands-on skills with Collectors, map, flatMap, and groupingBy
+
+👉 [Stream API Logical Questions](github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based-codebase/Java8ScenarioBasedProblems/src/com/Java8LogicalQuestions)
+
+👉 [Stream API Convertion Logical Questions](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based-codebase/Java8ScenarioBasedProblems/src/com/Java8LogicalQuestions)
+
+---
+
+## 📅 MySQL Database & JDBC(Java-Database-Connectivity)
+
+---
+
+### 📅 Day 1 – MySQL & JDBC Fundamentals  
+**(Date: 06-Feb-2026)**         
+**Branch:** `mysql-jdbc-practice`
+
+#### 📁Project Structure
+
+```
+BridgeLabz-Training/
+|
+├── 📁 mysql-jdbc-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 mysqlpractice/
+│   │       └── 📁 src/
+│   │           |── 📁 main/
+│   │           |   ├── 📁 java/
+|   |           |   |   └── 📁 com/
+|   |           |   |       └── 📁 mysqlpractice/
+|   |           |   |                   
+|   |           |   └── 📁 resources/
+|   |           |       └── 📁 sql/
+|   |           |
+|   |           └── 📁 test/
+│   │               ├── 📁 java/
+|   |               └── 📁 resources/
+|   |            
+|   └── 📁 scenario-based-codebase/
+|
+└── README.md
+```
+
+#### 🔹 Topics Covered
+- Overview of **MySQL as an RDBMS** and real-world database usage
+- **Database design principles**: normalization (1NF to BCNF), primary & foreign keys
+- **Constraints**: NOT NULL, UNIQUE, CHECK, DEFAULT, AUTO_INCREMENT
+- **SQL command categories**: DDL, DML, DQL, DCL, TCL
+- **Joins** (INNER, LEFT, RIGHT), subqueries, CTEs, and window functions
+- **Transactions & ACID properties** for data consistency
+- **Indexing concepts** in MySQL & SQL Server
+- Query performance tuning using `EXPLAIN`
+
+#### 🔹 Hands-On Practice
+- Practiced SQL queries on real-world scenarios:
+  - **Employee Management System** – CRUD operations, search & updates
+  - **Banking System** – balance handling with transactions
+  - **Library Management System** – book inventory, issue/return, user tracking
+
+ Strengthened understanding of **data integrity, performance optimization, and JDBC-ready SQL design**
+
+👉 [MySQL Practice](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/gcr-codebase/mysqlpractice/src/main/resources/sql)
+
+---
+
+### 📅 Day 2 – MySQL + JDBC Scenario Practice  
+**(Date: 07-Feb-2026)**    
+**Branch:** `mysql-jdbc-practice`
+
+#### 🔹 Technical Practice (Scenario-Based)
+Worked on **6 real-world JDBC + MySQL scenarios** based on a **Hospital Management System**, covering:
+- **Patient Management:** registration, update, search, visit history (CRUD, LIKE, JOINs)
+- **Doctor Management:** add/update specialty, view by specialty, soft delete
+- **Appointment Scheduling:** book, cancel, reschedule, availability check (transactions)
+- **Medical Records:** visits, prescriptions, patient history (one-to-many, batch inserts)
+- **Billing & Payments:** bill generation, payments, outstanding bills, revenue reports
+- **System Admin:** specialty lookup, audit logs, backup concepts
+
+#### 🔹 Key Concepts Applied
+- Primary & Foreign Keys, Auto-Increment  
+- INNER / LEFT JOINs, Subqueries  
+- Transactions (COMMIT / ROLLBACK)  
+- PreparedStatement (SQL injection prevention)  
+- Aggregate functions (COUNT, SUM, AVG)  
+- Batch operations, ResultSet handling, indexing & triggers  
+
+#### 🔹 PowerSkill Training
+- Attended **PowerSkill session on Communication Skills**
+- Learned importance of **clear speaking, active listening, confidence, and professional interaction**
+
+✔ Strengthened both **backend database skills** and **communication abilities** for real-world development
+
+👉 [MySQL Scenario-Based Practice](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/mysql-jdbc-practice/mysql-jdbc-practice/scenario-based-codebase/MySQLScenarioPractice/src/main/resources/com/sql)
+
+---
+
+
+
 
 
 
