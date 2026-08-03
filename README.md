@@ -30,3 +30,45 @@ Created a **Cricket Database** with a `Players` table and practiced SQL operatio
 - LIKE
 - ORDER BY
 - LIMIT & OFFSET
+
+🔗 **Code Link:**  
+👉 [Day 1 – DBMS Fundamentals & RDBMS Basics](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-1)
+
+---
+
+## 📅 Day 2
+**Date:** 03-Aug-2026
+
+### Topics Covered
+- ER Diagram Design Principles
+- Entities, Relationships & Cardinality
+- Table Indexing - Purpose and Performance Impact
+- Database Normalization
+- Normalization Forms (1NF, 2NF, 3NF, BCNF)
+
+### Practical
+Designed and finalized the **Health Clinic App** database schema.
+
+#### ER Diagram
+- Identified Entities
+- Defined Attributes
+- Established Relationships
+- Applied Cardinality (One-to-One, One-to-Many, Many-to-Many)
+- Finalized the ER Diagram for the Health Clinic App
+
+#### Indexing
+- Created Indexes
+- Understood Primary Index and Secondary Index
+- Improved Query Performance using Indexing
+
+#### Normalization
+- Applied First Normal Form (1NF)
+- Applied Second Normal Form (2NF)
+- Applied Third Normal Form (3NF)
+- Applied Boyce-Codd Normal Form (BCNF)
+- Normalized the Patient, Doctor, and Appointment schema
+
+🔗 **Code Link:**  
+👉 [Day 2 – ER Diagram, Indexing & Normalization](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-2)
+
+---
