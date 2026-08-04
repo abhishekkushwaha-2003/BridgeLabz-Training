@@ -1,4 +1,4 @@
-package com.mysqlpractise.JDBCProject;
+package com.mysqlpractise;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
