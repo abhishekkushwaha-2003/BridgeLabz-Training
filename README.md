@@ -72,3 +72,36 @@ Designed and finalized the **Health Clinic App** database schema.
 👉 [Day 2 – ER Diagram, Indexing & Normalization](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-2)
 
 ---
+
+## 📅 Day 3
+**Date:** 04-Aug-2026
+
+### Topics Covered
+- SQL Joins
+- Types of Joins (Inner, Left, Right, Full Outer)
+- Stored Procedures - Creation and Usage
+- Triggers - Automated Database Actions
+
+### Practical
+Implemented **Joins, Stored Procedures, and Triggers** for the **Health Clinic App** database schema.
+
+#### SQL Joins
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN
+
+#### Stored Procedures
+- Created Stored Procedures
+- Passed Parameters to Procedures
+- Retrieved and Managed Data using Procedures
+
+#### Triggers
+- Created BEFORE and AFTER Triggers
+- Used `NEW` and `OLD` Keywords
+- Automated Database Actions on INSERT, UPDATE, and DELETE
+
+🔗 **Code Link:**  
+👉 [Day 3 – SQL Joins, Stored Procedures & Triggers](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-3)
+
+---
