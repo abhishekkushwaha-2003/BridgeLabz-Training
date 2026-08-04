@@ -1,4 +1,4 @@
-package com.mysqlpractise.JDBCProject;
+package com.mysqlpractise;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
