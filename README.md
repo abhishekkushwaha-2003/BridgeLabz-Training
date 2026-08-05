@@ -105,3 +105,40 @@ Implemented **Joins, Stored Procedures, and Triggers** for the **Health Clinic A
 👉 [Day 3 – SQL Joins, Stored Procedures & Triggers](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-3)
 
 ---
+
+## 📅 Day 4
+**Date:** 05-Aug-2026
+
+### Topics Covered
+- JDBC (Java Database Connectivity)
+- Connecting Java Applications to MySQL
+- CRUD Operations using JDBC
+- Connection Pooling Basics
+- Health Clinic App Development
+
+### Practical
+Developed and demonstrated a **console-based Health Clinic App** using **Java, JDBC, and MySQL**.
+
+#### JDBC
+- Established Connection between Java and MySQL
+- Used `DriverManager` and `Connection`
+- Executed SQL Queries using `PreparedStatement`
+- Managed Database Resources with Exception Handling
+
+#### CRUD Operations
+- Inserted Records
+- Retrieved Records
+- Updated Records
+- Deleted Records
+
+#### Health Clinic App
+- Registered Patients
+- Managed Doctors and Specialties
+- Scheduled Appointments
+- Performed CRUD Operations for Clinic Management
+- Demonstrated the Completed Console-Based Health Clinic App
+
+🔗 **Code Link:**  
+👉 [Day 4 – JDBC & Health Clinic App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-4)
+
+---
