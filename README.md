@@ -114,10 +114,10 @@ Implemented **Joins, Stored Procedures, and Triggers** for the **Health Clinic A
 - Connecting Java Applications to MySQL
 - CRUD Operations using JDBC
 - Connection Pooling Basics
-- Health Clinic App Development
+- Health Clinic App Completion
 
 ### Practical
-Developed and demonstrated a **console-based Health Clinic App** using **Java, JDBC, and MySQL**.
+Completed the **console-based Health Clinic App** using **Java, JDBC, and MySQL**, with all data persisted in the database.
 
 #### JDBC
 - Established Connection between Java and MySQL
@@ -135,7 +135,9 @@ Developed and demonstrated a **console-based Health Clinic App** using **Java, J
 - Registered Patients
 - Managed Doctors and Specialties
 - Scheduled Appointments
-- Performed CRUD Operations for Clinic Management
+- Tracked Patient Visit History
+- Implemented Basic Billing
+- Persisted Data using JDBC (MySQL)
 - Demonstrated the Completed Console-Based Health Clinic App
 
 🔗 **Code Link:**  
