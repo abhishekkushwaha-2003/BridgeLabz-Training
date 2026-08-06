@@ -85,12 +85,14 @@ public class Patient {
 
     @Override
     public String toString() {
-        return "Patient [ patientId=" + patientId +
-                ", firstName=" + firstName +
-                ", lastName=" + lastName +
-                ", dateOfBirth=" + dateOfBirth +
-                ", gender=" + gender +
-                ", phone=" + phone +
-                ", address=" + address + " ]";
+        return "Patient Details : \n" +
+               "    patientId   = " + patientId + "\n" +
+               "    firstName   = " + firstName + "\n" +
+               "    lastName    = " + lastName + "\n" +
+               "    dateOfBirth = " + dateOfBirth + "\n" +
+               "    gender      = " + gender + "\n" +
+               "    phone       = " + phone + "\n" +
+               "    address     = " + address + "\n";
     }
+    
 }

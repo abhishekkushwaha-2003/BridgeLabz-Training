@@ -6,24 +6,33 @@ import java.util.List;
 import java.util.Scanner;
 
 import com.healthclinic.dao.AppointmentDAO;
+import com.healthclinic.dao.BillingDAO;
 import com.healthclinic.dao.DoctorDAO;
 import com.healthclinic.dao.PatientDAO;
+import com.healthclinic.dao.TransactionDAO;
+import com.healthclinic.dao.VisitDAO;
+import com.healthclinic.db.DatabaseInitializer;
 import com.healthclinic.model.Appointment;
+import com.healthclinic.model.Billing;
 import com.healthclinic.model.Doctor;
 import com.healthclinic.model.Patient;
+import com.healthclinic.model.Visit;
 
 public class Main {
 
 	public static void main(String[] args) {
 
 		// to create tables
-		// DatabaseInitializer.createTables();
+		 DatabaseInitializer.createTables();
 
 		Scanner sc = new Scanner(System.in);
 
 		PatientDAO patientDAO = new PatientDAO();
 		DoctorDAO doctorDAO = new DoctorDAO();
 		AppointmentDAO appointmentDAO = new AppointmentDAO();
+		VisitDAO visitDAO = new VisitDAO();
+		BillingDAO billingDAO = new BillingDAO();
+		TransactionDAO transactionDAO = new TransactionDAO();
 
 		int choice;
 
@@ -54,6 +63,22 @@ public class Main {
 			System.out.println("13. Search Appointment");
 			System.out.println("14. Update Appointment");
 			System.out.println("15. Delete Appointment");
+			
+            System.out.println("\n----------- Visit -----------");
+			
+			System.out.println("16. Add Visit");
+			System.out.println("17. View All Visits");
+			
+			System.out.println("\n----------- Billing -----------");
+			System.out.println("18. Generate Bill");
+			System.out.println("19. View All Bills");
+			
+			System.out.println("\n----------- Transaction -----------");
+			System.out.println("20. Complete Patient Visit");
+			
+			System.out.println("\n----------- Procedure -----------");
+			System.out.println("21. View Bills Using Procedure");
+		
 
 			System.out.println("\n0. Exit");
 			System.out.print("Enter Choice : ");
@@ -182,31 +207,34 @@ public class Main {
 
 			case 6:
 
-				Doctor doctor = new Doctor();
+			    Doctor doctor = new Doctor();
 
-				System.out.print("First Name : ");
-				doctor.setFirstName(sc.nextLine());
+			    System.out.print("First Name : ");
+			    doctor.setFirstName(sc.nextLine());
 
-				System.out.print("Last Name : ");
-				doctor.setLastName(sc.nextLine());
+			    System.out.print("Last Name : ");
+			    doctor.setLastName(sc.nextLine());
 
-				System.out.print("Specialization : ");
-				doctor.setSpecialization(sc.nextLine());
+			    System.out.print("Specialization : ");
+			    doctor.setSpecialization(sc.nextLine());
 
-				System.out.print("Phone : ");
-				doctor.setPhone(sc.nextLine());
+			    System.out.print("Phone : ");
+			    doctor.setPhone(sc.nextLine());
 
-				System.out.print("Department ID : ");
-				doctor.setDepartmentId(sc.nextInt());
-				sc.nextLine();
+			    // Show all departments
+			    doctorDAO.showDepartments();
 
-				if (doctorDAO.addDoctor(doctor)) {
-					System.out.println("Doctor Added Successfully.");
-				} else {
-					System.out.println("Failed to Add Doctor.");
-				}
+			    System.out.print("Enter Department ID : ");
+			    doctor.setDepartmentId(sc.nextInt());
+			    sc.nextLine();
 
-				break;
+			    if (doctorDAO.addDoctor(doctor)) {
+			        System.out.println("Doctor Added Successfully.");
+			    } else {
+			        System.out.println("Failed to Add Doctor.");
+			    }
+
+			    break;
 
 			case 7:
 
@@ -291,39 +319,48 @@ public class Main {
 
 			case 11:
 
-				Appointment appointment = new Appointment();
+			    Appointment appointment = new Appointment();
 
-				System.out.print("Patient ID : ");
-				appointment.setPatientId(sc.nextInt());
+			    System.out.print("Patient ID : ");
+			    appointment.setPatientId(sc.nextInt());
 
-				System.out.print("Doctor ID : ");
-				appointment.setDoctorId(sc.nextInt());
-				sc.nextLine();
+			    System.out.print("Doctor ID : ");
+			    appointment.setDoctorId(sc.nextInt());
+			    sc.nextLine();
 
-				System.out.print("Appointment Date (yyyy-MM-dd) : ");
-				appointment.setAppointmentDate(LocalDate.parse(sc.nextLine()));
+			    System.out.print("Appointment Date (yyyy-MM-dd) : ");
+			    appointment.setAppointmentDate(LocalDate.parse(sc.nextLine()));
 
-				System.out.print("Time (HH:mm:ss) : ");
-				appointment.setTimeSlot(LocalTime.parse(sc.nextLine()));
+			    System.out.print("Time (HH:mm:ss) : ");
+			    appointment.setTimeSlot(LocalTime.parse(sc.nextLine()));
 
-				System.out.print("Status : ");
-				appointment.setStatus(sc.nextLine());
+			    System.out.print("Status : ");
+			    appointment.setStatus(sc.nextLine());
 
-				Patient existingPatient = patientDAO.getPatientById(appointment.getPatientId());
+			    // Check Patient
+			    Patient existingPatient = patientDAO.getPatientById(appointment.getPatientId());
 
-				if (existingPatient == null) {
-					System.out.println("Patient ID does not exist.");
-					break;
-				}
+			    if (existingPatient == null) {
+			        System.out.println("Patient ID does not exist.");
+			        break;
+			    }
 
-				Doctor existingDoctor = doctorDAO.getDoctorById(appointment.getDoctorId());
+			    // Check Doctor
+			    Doctor existingDoctor = doctorDAO.getDoctorById(appointment.getDoctorId());
 
-				if (existingDoctor == null) {
-					System.out.println("Doctor ID does not exist.");
-					break;
-				}
+			    if (existingDoctor == null) {
+			        System.out.println("Doctor ID does not exist.");
+			        break;
+			    }
 
-				break;
+			    // Schedule Appointment
+			    if (appointmentDAO.scheduleAppointment(appointment)) {
+			        System.out.println("Appointment Scheduled Successfully.");
+			    } else {
+			        System.out.println("Failed to Schedule Appointment.");
+			    }
+
+			    break;
 
 			case 12:
 
@@ -405,6 +442,204 @@ public class Main {
 				}
 
 				break;
+				
+			case 16:
+
+			    Visit visit = new Visit();
+
+			    // Show available appointments
+			    List<Appointment> appointmentList = appointmentDAO.getAllAppointments();
+
+			    System.out.println("\n------ Available Appointments ------");
+
+			    for (Appointment a : appointmentList) {
+			        System.out.println(a);
+			    }
+
+			    System.out.print("Appointment ID : ");
+			    visit.setAppointmentId(sc.nextInt());
+			    sc.nextLine();
+
+			    // Validate Appointment
+			    Appointment existingAppointment =
+			            appointmentDAO.getAppointmentById(visit.getAppointmentId());
+
+			    if (existingAppointment == null) {
+			        System.out.println("Appointment ID does not exist.");
+			        break;
+			    }
+
+			    System.out.print("Visit Date (yyyy-MM-dd) : ");
+			    visit.setVisitDate(LocalDate.parse(sc.nextLine()));
+
+			    System.out.print("Diagnosis : ");
+			    visit.setDiagnosis(sc.nextLine());
+
+			    System.out.print("Prescription : ");
+			    visit.setPrescription(sc.nextLine());
+
+			    if (visitDAO.addVisit(visit)) {
+			        System.out.println("Visit Added Successfully.");
+			    } else {
+			        System.out.println("Failed to Add Visit.");
+			    }
+
+			    break;
+			    
+			    
+			case 17:
+
+			    List<Visit> visits = visitDAO.getAllVisits();
+
+			    if (visits.isEmpty()) {
+
+			        System.out.println("No Visits Found.");
+
+			    } else {
+
+			        System.out.println("\n------ Visit List ------");
+
+			        for (Visit v : visits) {
+			            System.out.println(v);
+			        }
+			    }
+
+			    break;
+			    
+			case 18:
+
+			    Billing billing = new Billing();
+
+			    // Show available visits
+			    List<Visit> visitList = visitDAO.getAllVisits();
+
+			    if (visitList.isEmpty()) {
+			        System.out.println("No Visits Found.");
+			        break;
+			    }
+
+			    System.out.println("\n------ Available Visits ------");
+
+			    for (Visit v : visitList) {
+			        System.out.println(v);
+			    }
+
+			    System.out.print("Enter Visit ID : ");
+			    billing.setVisitId(sc.nextInt());
+
+			    Visit existingVisit = visitDAO.getVisitById(billing.getVisitId());
+
+			    if (existingVisit == null) {
+			        System.out.println("Visit ID does not exist.");
+			        break;
+			    }
+
+			    System.out.print("Bill Amount : ");
+			    billing.setAmount(sc.nextDouble());
+			    sc.nextLine();
+
+			    System.out.print("Payment Status (Paid/Pending) : ");
+			    billing.setPaymentStatus(sc.nextLine());
+
+			    if (billingDAO.generateBill(billing)) {
+			        System.out.println("Bill Generated Successfully.");
+			    } else {
+			        System.out.println("Failed to Generate Bill.");
+			    }
+
+			    break;
+			    
+			case 19:
+
+				 List<Billing> bills = billingDAO.getAllBills();
+
+				    if (bills.isEmpty()) {
+
+				        System.out.println("No Bills Found.");
+
+				    } else {
+
+				        System.out.println("\n------ Billing List ------");
+
+				        for (Billing bill : bills) {
+				            System.out.println(bill);
+				        }
+				    }
+
+				    break;
+				    
+			case 20:
+
+			    Visit transactionVisit = new Visit();
+			    Billing transactionBilling = new Billing();
+
+			    // Show Appointments
+			    List<Appointment> transactionAppointmentList = appointmentDAO.getAllAppointments();
+
+			    System.out.println("\n------ Available Appointments ------");
+
+			    for (Appointment a : transactionAppointmentList) {
+			        System.out.println(a);
+			    }
+
+			    System.out.print("Appointment ID : ");
+			    transactionVisit.setAppointmentId(sc.nextInt());
+			    sc.nextLine();
+
+			    Appointment appointmentForTransaction =
+			            appointmentDAO.getAppointmentById(transactionVisit.getAppointmentId());
+
+			    if (appointmentForTransaction == null) {
+
+			        System.out.println("Appointment ID does not exist.");
+			        break;
+			    }
+
+			    System.out.print("Visit Date (yyyy-MM-dd) : ");
+			    transactionVisit.setVisitDate(LocalDate.parse(sc.nextLine()));
+
+			    System.out.print("Diagnosis : ");
+			    transactionVisit.setDiagnosis(sc.nextLine());
+
+			    System.out.print("Prescription : ");
+			    transactionVisit.setPrescription(sc.nextLine());
+
+			    System.out.print("Bill Amount : ");
+			    transactionBilling.setAmount(sc.nextDouble());
+			    sc.nextLine();
+
+			    System.out.print("Payment Status (Paid/Pending) : ");
+			    transactionBilling.setPaymentStatus(sc.nextLine());
+
+			    if (transactionDAO.completePatientVisit(transactionVisit, transactionBilling)) {
+			        System.out.println("Patient Visit Completed Successfully.");
+			    } else {
+			        System.out.println("Failed to Complete Patient Visit.");
+			    }
+
+			    break;
+			    
+			    
+			case 21:
+
+			    List<Billing> procedureBills = billingDAO.showBillsUsingProcedure();
+
+			    if (procedureBills.isEmpty()) {
+
+			        System.out.println("No Bills Found.");
+
+			    } else {
+
+			        System.out.println("\n------- Bills (Using Stored Procedure) ------");
+
+			        for (Billing bill : procedureBills) {
+			            System.out.println(bill);
+			        }
+			    }
+
+			    break;
+			    
+			    
 
 			// ================= EXIT =================
 

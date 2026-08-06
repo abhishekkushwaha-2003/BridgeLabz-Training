@@ -78,6 +78,51 @@ public class DatabaseInitializer {
                     """;
 
             stmt.execute(appointmentTable);
+            
+         // Visit Table
+
+            String visitTable = """
+                CREATE TABLE IF NOT EXISTS Visit (
+
+                    VisitID INT AUTO_INCREMENT PRIMARY KEY,
+
+                    AppointmentID INT NOT NULL,
+
+                    VisitDate DATE NOT NULL,
+
+                    Diagnosis VARCHAR(255),
+
+                    Prescription VARCHAR(255),
+
+                    FOREIGN KEY (AppointmentID)
+                    REFERENCES Appointment(AppointmentID)
+
+                )
+                """;
+
+            stmt.execute(visitTable);
+            
+            
+         // Billing Table
+
+            String billingTable = """
+                CREATE TABLE IF NOT EXISTS Billing (
+
+                    BillID INT AUTO_INCREMENT PRIMARY KEY,
+
+                    VisitID INT NOT NULL,
+
+                    Amount DECIMAL(10,2) NOT NULL,
+
+                    PaymentStatus VARCHAR(30) NOT NULL,
+
+                    FOREIGN KEY (VisitID)
+                    REFERENCES Visit(VisitID)
+
+                )
+                """;
+
+            stmt.execute(billingTable);
 
             System.out.println("All tables created successfully.");
 

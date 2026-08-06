@@ -142,4 +142,26 @@ public class DoctorDAO {
 
         return false;
     }
+    
+    public void showDepartments() {
+        String sql = "SELECT * FROM Department";
+
+        try (Connection con = DBConnection.getConnection();
+             PreparedStatement ps = con.prepareStatement(sql);
+             ResultSet rs = ps.executeQuery()) {
+
+            System.out.println("\nAvailable Departments");
+
+            while (rs.next()) {
+                System.out.println(
+                    rs.getInt("DepartmentID") + ". " +
+                    rs.getString("DepartmentName")
+                );
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+    
 }

@@ -15,27 +15,27 @@ import com.healthclinic.model.Appointment;
 public class AppointmentDAO {
 
     // Schedule Appointment
-    public boolean scheduleAppointment(Appointment appointment) {
+	public boolean scheduleAppointment(Appointment appointment) {
 
-        String sql = "INSERT INTO Appointment (PatientID, DoctorID, AppointmentDate, TimeSlot, Status) VALUES (?, ?, ?, ?, ?)";
+	    String sql = "INSERT INTO Appointment (PatientID, DoctorID, AppointmentDate, TimeSlot, Status) VALUES (?, ?, ?, ?, ?)";
 
-        try (Connection connection = DBConnection.getConnection();
-             PreparedStatement ps = connection.prepareStatement(sql)) {
+	    try (Connection connection = DBConnection.getConnection();
+	         PreparedStatement ps = connection.prepareStatement(sql)) {
 
-            ps.setInt(1, appointment.getPatientId());
-            ps.setInt(2, appointment.getDoctorId());
-            ps.setDate(3, Date.valueOf(appointment.getAppointmentDate()));
-            ps.setTime(4, Time.valueOf(appointment.getTimeSlot()));
-            ps.setString(5, appointment.getStatus());
+	        ps.setInt(1, appointment.getPatientId());
+	        ps.setInt(2, appointment.getDoctorId());
+	        ps.setDate(3, Date.valueOf(appointment.getAppointmentDate()));
+	        ps.setTime(4, Time.valueOf(appointment.getTimeSlot()));
+	        ps.setString(5, appointment.getStatus());
 
-            return ps.executeUpdate() > 0;
+	        return ps.executeUpdate() > 0;
 
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+	    } catch (SQLException e) {
+	        e.printStackTrace();
+	    }
 
-        return false;
-    }
+	    return false;
+	}
 
     // View All Appointments
     public List<Appointment> getAllAppointments() {
