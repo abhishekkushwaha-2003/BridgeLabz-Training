@@ -144,3 +144,36 @@ Completed the **console-based Health Clinic App** using **Java, JDBC, and MySQL*
 👉 [Day 4 – JDBC & Health Clinic App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-4)
 
 ---
+
+## 📅 Day 5
+**Date:** 06-Aug-2026
+
+### Topics Covered
+- Backend Basics
+- Tomcat as a Web/Application Server
+- Servlet Lifecycle
+- Introduction to Spring Framework
+- Spring Core Concepts
+- Inversion of Control (IoC)
+- Dependency Injection (DI)
+
+### Practical
+Configured **Apache Tomcat**, deployed a basic **Servlet**, and explored the **Spring IoC Container** with a simple bean example.
+
+#### Tomcat & Servlets
+- Installed and Configured Apache Tomcat
+- Deployed a Basic Servlet on Tomcat
+- Understood the Servlet Lifecycle (`init()`, `service()`, `destroy()`)
+- Handled HTTP Requests and Responses
+
+#### Spring Framework
+- Created a Simple Spring Project
+- Explored the Spring IoC Container
+- Created and Configured a Simple Bean
+- Understood Dependency Injection Basics
+- Loaded Beans using the Spring Container
+
+🔗 **Code Link:**  
+👉 [Day 5 – Backend Basics, Tomcat, Servlets & Spring Introduction](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-5)
+
+---
