@@ -177,3 +177,35 @@ Configured **Apache Tomcat**, deployed a basic **Servlet**, and explored the **S
 👉 [Day 5 – Backend Basics, Tomcat, Servlets & Spring Introduction](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-5)
 
 ---
+
+## 📅 Day 6
+**Date:** 08-Aug-2026
+
+### Topics Covered
+- Spring MVC
+- Spring MVC Architecture
+- DispatcherServlet
+- Controllers and Views
+- Request Mapping and Request Handling
+
+### Practical
+Built the **My Greetings App** using **Spring MVC** and understood the request processing flow.
+
+#### Spring MVC
+- Understood the Spring MVC Architecture
+- Configured the `DispatcherServlet`
+- Created Controllers
+- Mapped Requests using `@RequestMapping`
+- Returned Views from Controllers
+- Processed Client Requests and Responses
+
+#### My Greetings App
+- Built the My Greetings App using Spring MVC
+- Configured View Resolver
+- Created JSP Views
+- Tested Request Handling and Navigation
+
+🔗 **Code Link:**  
+👉 [Day 6 – Spring MVC & My Greetings App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-6)
+
+---
