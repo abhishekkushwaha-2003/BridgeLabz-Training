@@ -1450,6 +1450,70 @@ Completed the **console-based Health Clinic App** using **Java, JDBC, and MySQL*
 
 ---
 
+## 📅 Day 5
+**Date:** 06-Aug-2026
+
+### Topics Covered
+- Backend Basics
+- Tomcat as a Web/Application Server
+- Servlet Lifecycle
+- Introduction to Spring Framework
+- Spring Core Concepts
+- Inversion of Control (IoC)
+- Dependency Injection (DI)
+
+### Practical
+Configured **Apache Tomcat**, deployed a basic **Servlet**, and explored the **Spring IoC Container** with a simple bean example.
+
+#### Tomcat & Servlets
+- Installed and Configured Apache Tomcat
+- Deployed a Basic Servlet on Tomcat
+- Understood the Servlet Lifecycle (`init()`, `service()`, `destroy()`)
+- Handled HTTP Requests and Responses
+
+#### Spring Framework
+- Created a Simple Spring Project
+- Explored the Spring IoC Container
+- Created and Configured a Simple Bean
+- Understood Dependency Injection Basics
+- Loaded Beans using the Spring Container
+
+🔗 **Code Link:**  
+👉 [Day 5 – Backend Basics, Tomcat, Servlets & Spring Introduction](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-5)
+
+---
+
+## 📅 Day 6
+**Date:** 07-Aug-2026
+
+### Topics Covered
+- Spring MVC
+- Spring MVC Architecture
+- DispatcherServlet
+- Controllers and Views
+- Request Mapping and Request Handling
+
+### Practical
+Built the **My Greetings App** using **Spring MVC** and understood the request processing flow.
+
+#### Spring MVC
+- Understood the Spring MVC Architecture
+- Configured the `DispatcherServlet`
+- Created Controllers
+- Mapped Requests using `@RequestMapping`
+- Returned Views from Controllers
+- Processed Client Requests and Responses
+
+#### My Greetings App
+- Built the My Greetings App using Spring MVC
+- Configured View Resolver
+- Created JSP Views
+- Tested Request Handling and Navigation
+
+🔗 **Code Link:**  
+👉 [Day 6 – Spring MVC & My Greetings App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-6)
+
+---
 
 
 
