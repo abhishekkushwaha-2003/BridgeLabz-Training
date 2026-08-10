@@ -14,7 +14,6 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
-    // Register User
     public String registerUser(User user) {
 
         // Check duplicate username
@@ -33,13 +32,38 @@ public class UserService {
         return "Registration successful";
     }
 
-    // Login User
+
     public User loginUser(String username, String password) {
 
         return userRepository.findByUsernameAndPassword(username, password);
     }
+
+
+    public String updateUsername(Long userId, String newUsername) {
+
+        // Check if username is already used
+        if (userRepository.existsByUsername(newUsername)) {
+            return "Username already exists";
+        }
+
+        // Find current user
+        User user = userRepository.findById(userId).orElse(null);
+
+        if (user == null) {
+            return "User not found";
+        }
+
+        // Update username
+        user.setUsername(newUsername);
+
+        // Save updated user
+        userRepository.save(user);
+
+        return "Username updated successfully";
+    }
     
-    public User findByUsername(String username) {
-        return userRepository.findByUsername(username);
+    public void deleteUser(Long userId) {
+
+        userRepository.deleteById(userId);
     }
 }

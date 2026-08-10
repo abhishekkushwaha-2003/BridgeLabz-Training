@@ -1,14 +1,23 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
 <html>
+
 <head>
+
     <meta charset="UTF-8">
+
     <title>Register - My Greetings App</title>
+
+    <link rel="stylesheet"
+          href="${pageContext.request.contextPath}/css/style.css">
+
 </head>
 
 <body>
+
+<div class="container">
 
     <h1>My Greetings App</h1>
 
@@ -16,7 +25,7 @@
 
     <!-- General Error -->
     <% if (request.getAttribute("error") != null) { %>
-        <p style="color:red;">
+        <p class="error">
             <%= request.getAttribute("error") %>
         </p>
     <% } %>
@@ -31,7 +40,7 @@
 
         <% if (request.getAttribute("errors") != null
                 && ((java.util.Map)request.getAttribute("errors")).get("name") != null) { %>
-            <span style="color:red;">
+            <span class="error">
                 <%= ((java.util.Map)request.getAttribute("errors")).get("name") %>
             </span>
         <% } %>
@@ -47,7 +56,7 @@
 
         <% if (request.getAttribute("errors") != null
                 && ((java.util.Map)request.getAttribute("errors")).get("email") != null) { %>
-            <span style="color:red;">
+            <span class="error">
                 <%= ((java.util.Map)request.getAttribute("errors")).get("email") %>
             </span>
         <% } %>
@@ -63,7 +72,7 @@
 
         <% if (request.getAttribute("errors") != null
                 && ((java.util.Map)request.getAttribute("errors")).get("username") != null) { %>
-            <span style="color:red;">
+            <span class="error">
                 <%= ((java.util.Map)request.getAttribute("errors")).get("username") %>
             </span>
         <% } %>
@@ -78,7 +87,7 @@
 
         <% if (request.getAttribute("errors") != null
                 && ((java.util.Map)request.getAttribute("errors")).get("password") != null) { %>
-            <span style="color:red;">
+            <span class="error">
                 <%= ((java.util.Map)request.getAttribute("errors")).get("password") %>
             </span>
         <% } %>
@@ -96,5 +105,8 @@
         Already have an account? Login
     </a>
 
+</div>
+
 </body>
+
 </html>

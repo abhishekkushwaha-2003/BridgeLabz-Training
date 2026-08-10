@@ -179,7 +179,7 @@ Configured **Apache Tomcat**, deployed a basic **Servlet**, and explored the **S
 ---
 
 ## 📅 Day 6
-**Date:** 08-Aug-2026
+**Date:** 07-Aug-2026
 
 ### Topics Covered
 - Spring MVC

@@ -21,7 +21,7 @@ public class AuthController {
     public AuthController(UserService userService) {
         this.userService = userService;
     }
-
+    
     @GetMapping("/register")
     public String showRegisterPage(Model model) {
 
@@ -66,15 +66,12 @@ public class AuthController {
         return "redirect:/login";
     }
 
-
-    // Show Login Page
     @GetMapping("/login")
     public String showLoginPage() {
 
         return "login";
     }
 
-    // Handle Login
     @PostMapping("/login")
     public String loginUser(
             @RequestParam String username,
@@ -86,6 +83,7 @@ public class AuthController {
 
         if (user != null) {
 
+            // Store logged-in user in session
             session.setAttribute("user", user);
 
             return "redirect:/home";
@@ -96,27 +94,97 @@ public class AuthController {
         return "login";
     }
 
+
     @GetMapping("/home")
     public String showHomePage(
             HttpSession session,
             Model model) {
 
+        // Get logged-in user from session
         User user = (User) session.getAttribute("user");
 
+        // If user is not logged in
         if (user == null) {
             return "redirect:/login";
         }
 
+        // Send user details to Thymeleaf
         model.addAttribute("name", user.getName());
+        model.addAttribute("email", user.getEmail());
+        model.addAttribute("username", user.getUsername());
 
         return "home";
     }
-    
+
+
+    @PostMapping("/update-username")
+    public String updateUsername(
+            @RequestParam String username,
+            HttpSession session,
+            Model model) {
+
+        // Get logged-in user from session
+        User user = (User) session.getAttribute("user");
+
+        // If user is not logged in
+        if (user == null) {
+            return "redirect:/login";
+        }
+
+        // Update username in database
+        String message = userService.updateUsername(
+                user.getId(),
+                username
+        );
+
+        // If update failed
+        if (!message.equals("Username updated successfully")) {
+
+            model.addAttribute("error", message);
+
+            // Send existing user details back to home page
+            model.addAttribute("name", user.getName());
+            model.addAttribute("email", user.getEmail());
+            model.addAttribute("username", user.getUsername());
+
+            return "home";
+        }
+
+        // Update username in session also
+        user.setUsername(username);
+        session.setAttribute("user", user);
+
+        // Go back to home page
+        return "redirect:/home";
+    }
+
     @GetMapping("/logout")
     public String logout(HttpSession session) {
 
+        // Destroy session
         session.invalidate();
 
+        return "redirect:/login";
+    }
+    
+    @PostMapping("/delete-account")
+    public String deleteAccount(HttpSession session) {
+
+        // Get logged-in user from session
+        User user = (User) session.getAttribute("user");
+
+        // If user is not logged in
+        if (user == null) {
+            return "redirect:/login";
+        }
+
+        // Delete user from database
+        userService.deleteUser(user.getId());
+
+        // Destroy session
+        session.invalidate();
+
+        // Go to login page
         return "redirect:/login";
     }
 }
