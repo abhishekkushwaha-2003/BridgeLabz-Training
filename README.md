@@ -209,3 +209,49 @@ Built the **My Greetings App** using **Spring MVC** and understood the request p
 👉 [Day 6 – Spring MVC & My Greetings App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-6)
 
 ---
+
+## 📅 Day 7
+**Date:** 10-Aug-2026
+
+### Topics Covered
+- Spring REST API
+- RESTful Endpoint Development
+- Request Handling in Spring
+- H2 In-Memory Database
+- Distributed Architectures - Overview and Motivation
+
+### Practical
+Started developing the **Contacts App Backend** using **Spring Boot, REST APIs, and H2 Database**.
+
+#### Spring REST API
+- Created RESTful Endpoints
+- Used `@RestController`
+- Used `@GetMapping`, `@PostMapping`, `@PutMapping`, and `@DeleteMapping`
+- Handled HTTP Requests and Responses
+- Used Path Variables and Request Parameters
+- Tested REST APIs using Postman
+
+#### H2 Database
+- Configured H2 In-Memory Database
+- Created Database Entities
+- Connected the Spring Boot Application with H2
+- Performed Basic Database Operations
+
+#### Distributed Architecture
+- Understood the Basics of Distributed Architectures
+- Learned the Motivation and Benefits of Distributed Systems
+- Understood how multiple services can communicate with each other
+
+#### Contacts App Backend
+- Started the Contacts App Backend
+- Created Basic REST Endpoints
+- Implemented Contact Creation
+- Implemented Contact Retrieval
+- Implemented Contact Update
+- Implemented Contact Deletion
+- Tested the Basic CRUD REST APIs
+
+🔗 **Code Link:**  
+👉 [Day 7 – Spring REST API & Contacts App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-7)
+
+---
