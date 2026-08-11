@@ -7,7 +7,7 @@ import com.spring.constructor.Address;
 import com.spring.constructor.Student;
 
 @Configuration
-public class AppConfig {
+public class ConstructorConfig {
 
     @Bean
     public Address address() {
