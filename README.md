@@ -1515,6 +1515,129 @@ Built the **My Greetings App** using **Spring MVC** and understood the request p
 
 ---
 
+## 📅 Day 7
+**Date:** 10-Aug-2026
+
+### Topics Covered
+- Spring REST API
+- RESTful Endpoint Development
+- Request Handling in Spring
+- H2 In-Memory Database
+- Distributed Architectures - Overview and Motivation
+
+### Practical
+Started developing the **Contacts App Backend** using **Spring Boot, REST APIs, and H2 Database**.
+
+#### Spring REST API
+- Created RESTful Endpoints
+- Used `@RestController`
+- Used `@GetMapping`, `@PostMapping`, `@PutMapping`, and `@DeleteMapping`
+- Handled HTTP Requests and Responses
+- Used Path Variables and Request Parameters
+- Tested REST APIs using Postman
+
+#### H2 Database
+- Configured H2 In-Memory Database
+- Created Database Entities
+- Connected the Spring Boot Application with H2
+- Performed Basic Database Operations
+
+#### Distributed Architecture
+- Understood the Basics of Distributed Architectures
+- Learned the Motivation and Benefits of Distributed Systems
+- Understood how multiple services can communicate with each other
+
+#### Contacts App Backend
+- Started the Contacts App Backend
+- Created Basic REST Endpoints
+- Implemented Contact Creation
+- Implemented Contact Retrieval
+- Implemented Contact Update
+- Implemented Contact Deletion
+- Tested the Basic CRUD REST APIs
+
+🔗 **Code Link:**  
+👉 [Day 7 – Spring REST API & Contacts App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-7)
+
+---
+
+## 📅 Day 8
+**Date:** 11-Aug-2026
+
+### Topics Covered
+- API Testing Tools
+- REST Assured
+- JSON Server
+- Software Development Life Cycle (SDLC)
+- Role of Backend Development in SDLC
+- API Mocking and Testing
+
+### Practical
+Continued development of the **Contacts App Backend** and tested REST API endpoints using **REST Assured** and **JSON Server**.
+
+#### API Testing
+- Introduction to REST Assured
+- Created API Test Cases using REST Assured
+- Tested RESTful Endpoints
+- Validated HTTP Status Codes
+- Validated API Responses
+- Used JSON Server for API Mocking and Testing
+
+#### SDLC
+- Understood the Software Development Life Cycle (SDLC)
+- Learned the different phases of SDLC
+- Understood the role of Backend Development in the SDLC
+- Understood how API development and testing fit into the development process
+
+#### Contacts App Backend
+- Continued development of the Contacts App
+- Applied concepts introduced during the training
+- Tested Contacts App REST API endpoints
+- Performed API testing using REST Assured
+- Used JSON Server for API mocking/testing
+
+🔗 **Code Link:**  
+👉 [Day 8 – API Testing, SDLC & Contacts App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-8)
+
+---
+
+## 📅 Day 9
+**Date:** 12-Aug-2026
+
+### Topics Covered
+- Spring Boot Fundamentals
+- Spring Boot Auto-Configuration
+- Spring Boot Starters
+- Embedded Server
+- Spring Controllers
+- REST API Development with Spring Boot
+- Bootstrapping a Spring Boot Project
+
+### Practical
+Bootstrapped a new **Spring Boot project** and continued development of the **Contacts App Backend** using Spring Boot REST APIs.
+
+#### Spring Boot
+- Understood Spring Boot Auto-Configuration
+- Learned about Spring Boot Starters
+- Understood Embedded Server
+- Created a Spring Boot Project
+- Created Spring Controllers
+- Developed REST APIs using Spring Boot
+- Handled HTTP Requests and Responses
+
+#### Contacts App Backend
+- Continued development of the Contacts App using Spring Boot
+- Implemented RESTful Contact APIs
+- Applied Spring Boot concepts introduced during training
+- Added **Favourite Contact** functionality
+- Implemented functionality to mark a contact as Favourite
+- Implemented functionality to manage Favourite Contacts
+
+🔗 **Code Link:**  
+👉 [Day 9 – Spring Boot & Contacts App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-9)
+
+---
+
 
 
 
