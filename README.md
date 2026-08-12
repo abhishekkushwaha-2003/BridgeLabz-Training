@@ -295,3 +295,40 @@ Continued development of the **Contacts App Backend** and tested REST API endpoi
 👉 [Day 8 – API Testing, SDLC & Contacts App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-8)
 
 ---
+
+## 📅 Day 9
+**Date:** 12-Aug-2026
+
+### Topics Covered
+- Spring Boot Fundamentals
+- Spring Boot Auto-Configuration
+- Spring Boot Starters
+- Embedded Server
+- Spring Controllers
+- REST API Development with Spring Boot
+- Bootstrapping a Spring Boot Project
+
+### Practical
+Bootstrapped a new **Spring Boot project** and continued development of the **Contacts App Backend** using Spring Boot REST APIs.
+
+#### Spring Boot
+- Understood Spring Boot Auto-Configuration
+- Learned about Spring Boot Starters
+- Understood Embedded Server
+- Created a Spring Boot Project
+- Created Spring Controllers
+- Developed REST APIs using Spring Boot
+- Handled HTTP Requests and Responses
+
+#### Contacts App Backend
+- Continued development of the Contacts App using Spring Boot
+- Implemented RESTful Contact APIs
+- Applied Spring Boot concepts introduced during training
+- Added **Favourite Contact** functionality
+- Implemented functionality to mark a contact as Favourite
+- Implemented functionality to manage Favourite Contacts
+
+🔗 **Code Link:**  
+👉 [Day 9 – Spring Boot & Contacts App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-9)
+
+---
