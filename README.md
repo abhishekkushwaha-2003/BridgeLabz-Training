@@ -342,9 +342,10 @@ Bootstrapped a new **Spring Boot project** and continued development of the **Co
 - H2 Database Integration
 - H2 Database Configuration
 - Database Integration with Spring Boot
+- Employee Payroll App Backend
 
 ### Practical
-Implemented **Dependency Injection** concepts in Spring Boot and integrated the **H2 Database** with the backend applications.
+Created Employee Payroll App - Perform CRUD operations and Implemented **Dependency Injection** concepts in Spring Boot and integrated the **H2 Database** with the backend applications.
 
 #### Dependency Injection
 - Understood Dependency Injection in Spring Boot
@@ -367,6 +368,6 @@ Implemented **Dependency Injection** concepts in Spring Boot and integrated the 
 - Tested Database Operations through REST APIs
 
 🔗 **Code Link:**  
-👉 [Day 10 – Dependency Injection & H2 Database](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-10)
+👉 [Day 10 – Employee Payroll App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-10)
 
 ---
