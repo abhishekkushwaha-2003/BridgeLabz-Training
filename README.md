@@ -332,3 +332,41 @@ Bootstrapped a new **Spring Boot project** and continued development of the **Co
 👉 [Day 9 – Spring Boot & Contacts App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-9)
 
 ---
+
+## 📅 Day 10
+**Date:** 13-Aug-2026
+
+### Topics Covered
+- Dependency Injection in Spring Boot
+- Dependency Injection Deep-Dive
+- H2 Database Integration
+- H2 Database Configuration
+- Database Integration with Spring Boot
+
+### Practical
+Implemented **Dependency Injection** concepts in Spring Boot and integrated the **H2 Database** with the backend applications.
+
+#### Dependency Injection
+- Understood Dependency Injection in Spring Boot
+- Explored Constructor Injection
+- Understood how Spring manages Dependencies
+- Used Spring's IoC Container for Dependency Management
+- Applied Dependency Injection in Service and Repository Layers
+
+#### H2 Database
+- Integrated H2 Database with Spring Boot
+- Configured H2 Database Properties
+- Created and Managed Database Entities
+- Connected Spring Boot Applications with H2
+- Performed Database Operations using Spring Data JPA
+
+#### Backend Applications
+- Wired H2 Database into the **Contacts App Backend**
+- Integrated H2 Database with the **Employee Payroll App Backend**
+- Applied Dependency Injection and Database Integration concepts
+- Tested Database Operations through REST APIs
+
+🔗 **Code Link:**  
+👉 [Day 10 – Dependency Injection & H2 Database](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-10)
+
+---
