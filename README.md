@@ -1638,6 +1638,93 @@ Bootstrapped a new **Spring Boot project** and continued development of the **Co
 
 ---
 
+## 📅 Day 10
+**Date:** 13-Aug-2026
+
+### Topics Covered
+- Dependency Injection in Spring Boot
+- Dependency Injection Deep-Dive
+- H2 Database Integration
+- H2 Database Configuration
+- Database Integration with Spring Boot
+- Employee Payroll App Backend
+
+### Practical
+Created Employee Payroll App - Perform CRUD operations and Implemented **Dependency Injection** concepts in Spring Boot and integrated the **H2 Database** with the backend applications.
+
+#### Dependency Injection
+- Understood Dependency Injection in Spring Boot
+- Explored Constructor Injection
+- Understood how Spring manages Dependencies
+- Used Spring's IoC Container for Dependency Management
+- Applied Dependency Injection in Service and Repository Layers
+
+#### H2 Database
+- Integrated H2 Database with Spring Boot
+- Configured H2 Database Properties
+- Created and Managed Database Entities
+- Connected Spring Boot Applications with H2
+- Performed Database Operations using Spring Data JPA
+
+#### Backend Applications
+- Wired H2 Database into the **Contacts App Backend**
+- Integrated H2 Database with the **Employee Payroll App Backend**
+- Applied Dependency Injection and Database Integration concepts
+- Tested Database Operations through REST APIs
+
+🔗 **Code Link:**  
+👉 [Day 10 – Employee Payroll App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-10)
+
+---
+
+## 📅 Day 11
+**Date:** 14-Aug-2026
+
+### Topics Covered
+- Spring REST API - Service-Layer Design
+- Spring JPA
+- Spring Data JPA Repositories
+- JPA Entity Mapping
+- Spring JDBC
+- `JdbcTemplate` - Template-Based Data Access
+- Pagination
+- Sorting (ASC / DESC)
+- Query by Example (QBE)
+
+### Practical
+Built the **Employee Payroll App Backend** using **Spring JPA and Spring JDBC**, and implemented advanced data retrieval features.
+
+#### Spring Services
+- Designed the Service Layer for REST APIs
+- Implemented Business Logic in the Service Layer
+- Connected Controller, Service, and Repository Layers
+- Applied Dependency Injection
+
+#### Spring JPA
+- Created JPA Entities
+- Configured Entity Mapping
+- Created Spring Data JPA Repositories
+- Performed CRUD Operations using JPA
+- Used Repository Methods for Data Access
+
+#### Spring JDBC
+- Used `JdbcTemplate` for Database Operations
+- Implemented Template-Based Data Access
+- Executed SQL Queries using Spring JDBC
+
+#### Employee Payroll App
+- Built the Employee Payroll App Backend
+- Implemented Employee CRUD Operations
+- Added **Pagination**
+- Added **Sorting in ASC and DESC Order**
+- Implemented **Query by Example (QBE)**
+- Tested REST APIs for Employee Management
+
+🔗 **Code Link:**  
+👉 [Day 11 – Spring Services, JPA, JDBC & Employee Payroll App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-11)
+
+---
+
 
 
 
