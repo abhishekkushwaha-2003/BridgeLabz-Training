@@ -371,3 +371,51 @@ Created Employee Payroll App - Perform CRUD operations and Implemented **Depende
 👉 [Day 10 – Employee Payroll App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-10)
 
 ---
+
+## 📅 Day 11
+**Date:** 14-Aug-2026
+
+### Topics Covered
+- Spring REST API - Service-Layer Design
+- Spring JPA
+- Spring Data JPA Repositories
+- JPA Entity Mapping
+- Spring JDBC
+- `JdbcTemplate` - Template-Based Data Access
+- Pagination
+- Sorting (ASC / DESC)
+- Query by Example (QBE)
+
+### Practical
+Built the **Employee Payroll App Backend** using **Spring JPA and Spring JDBC**, and implemented advanced data retrieval features.
+
+#### Spring Services
+- Designed the Service Layer for REST APIs
+- Implemented Business Logic in the Service Layer
+- Connected Controller, Service, and Repository Layers
+- Applied Dependency Injection
+
+#### Spring JPA
+- Created JPA Entities
+- Configured Entity Mapping
+- Created Spring Data JPA Repositories
+- Performed CRUD Operations using JPA
+- Used Repository Methods for Data Access
+
+#### Spring JDBC
+- Used `JdbcTemplate` for Database Operations
+- Implemented Template-Based Data Access
+- Executed SQL Queries using Spring JDBC
+
+#### Employee Payroll App
+- Built the Employee Payroll App Backend
+- Implemented Employee CRUD Operations
+- Added **Pagination**
+- Added **Sorting in ASC and DESC Order**
+- Implemented **Query by Example (QBE)**
+- Tested REST APIs for Employee Management
+
+🔗 **Code Link:**  
+👉 [Day 11 – Spring Services, JPA, JDBC & Employee Payroll App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-11)
+
+---
