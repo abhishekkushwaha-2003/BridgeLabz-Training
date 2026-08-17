@@ -1,10 +1,11 @@
 package com.employeepayroll.service;
-
+import com.employeepayroll.dto.request.EmployeePatchRequest;
 import java.math.BigDecimal;
 import java.util.List;
 
 import org.springframework.data.domain.Page;
 
+import com.employeepayroll.dto.request.EmployeePatchRequest;
 import com.employeepayroll.dto.request.EmployeeRequest;
 import com.employeepayroll.dto.request.EmployeeSearchRequest;
 import com.employeepayroll.dto.response.EmployeeResponse;
@@ -20,6 +21,10 @@ public interface EmployeeService {
     EmployeeResponse updateEmployee(
             Long id,
             EmployeeRequest request);
+    
+    EmployeeResponse patchEmployee(
+            Long id,
+            EmployeePatchRequest request);
 
     void deleteEmployee(Long id);
 

@@ -51,3 +51,9 @@ INSERT INTO employee
 (id, name, email, phone, salary, department_id)
 VALUES
 (8, 'Pooja', 'pooja@gmail.com', '9876543217', 80000, 2);
+
+
+
+ALTER TABLE DEPARTMENT ALTER COLUMN ID RESTART WITH 4;
+
+ALTER TABLE EMPLOYEE ALTER COLUMN ID RESTART WITH 9;

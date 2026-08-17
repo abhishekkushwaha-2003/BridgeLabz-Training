@@ -12,6 +12,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.employeepayroll.dto.request.EmployeePatchRequest;
 import com.employeepayroll.dto.request.EmployeeRequest;
 import com.employeepayroll.dto.request.EmployeeSearchRequest;
 import com.employeepayroll.dto.response.EmployeeResponse;
@@ -120,6 +121,53 @@ public class EmployeeServiceImpl implements EmployeeService {
         existingEmployee.setPhone(request.getPhone());
         existingEmployee.setSalary(request.getSalary());
         existingEmployee.setDepartment(department);
+
+        Employee updatedEmployee =
+                employeeRepository.save(existingEmployee);
+
+        return employeeMapper.toResponse(updatedEmployee);
+    }
+    
+    
+    @Override
+    public EmployeeResponse patchEmployee(
+            Long id,
+            EmployeePatchRequest request) {
+
+        Employee existingEmployee =
+                employeeRepository.findById(id)
+                .orElseThrow(() ->
+                    new EmployeeNotFoundException(
+                        "Employee not found with id: " + id));
+
+        if (request.getName() != null) {
+            existingEmployee.setName(request.getName());
+        }
+
+        if (request.getEmail() != null) {
+            existingEmployee.setEmail(request.getEmail());
+        }
+
+        if (request.getPhone() != null) {
+            existingEmployee.setPhone(request.getPhone());
+        }
+
+        if (request.getSalary() != null) {
+            existingEmployee.setSalary(request.getSalary());
+        }
+
+        if (request.getDepartmentId() != null) {
+
+            Department department =
+                    departmentRepository.findById(
+                            request.getDepartmentId())
+                    .orElseThrow(() ->
+                        new DepartmentNotFoundException(
+                            "Department not found with id: "
+                            + request.getDepartmentId()));
+
+            existingEmployee.setDepartment(department);
+        }
 
         Employee updatedEmployee =
                 employeeRepository.save(existingEmployee);
