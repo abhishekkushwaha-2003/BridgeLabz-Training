@@ -1725,6 +1725,108 @@ Built the **Employee Payroll App Backend** using **Spring JPA and Spring JDBC**,
 
 ---
 
+## 📅 Day 12
+**Date:** 17-Aug-2026
+
+### Topics Covered
+- Spring Bean Scopes
+- Logging in Spring Boot
+- Swagger API Documentation & Testing
+- Maven Build & Dependency Management
+- Postman API Testing
+- REST API Testing Workflow
+
+### Practical
+Completed the **Employee Payroll App** using Spring Boot and tested all REST API endpoints using **Swagger** and **Postman**.
+
+#### Spring Bean Scopes
+- Understood Spring Bean Scopes
+- Learned about `Singleton` Scope
+- Learned about `Prototype` Scope
+- Learned about `Request` Scope
+- Learned about `Session` Scope
+
+#### Logging
+- Implemented Logging in Spring Boot
+- Used Logging for Application Monitoring and Debugging
+- Added Logs at Different Application Layers
+
+#### Swagger API Testing
+- Integrated Swagger/OpenAPI with Spring Boot
+- Generated API Documentation
+- Tested REST API Endpoints using Swagger UI
+- Documented Controllers and API Operations
+
+#### Maven
+- Understood Maven Build Lifecycle
+- Managed Project Dependencies using Maven
+- Used `pom.xml` for Dependency Configuration
+- Built and Managed the Spring Boot Application using Maven
+
+#### Postman
+- Tested REST API Endpoints using Postman
+- Created and Organized Postman Collections
+- Tested CRUD Operations
+- Validated HTTP Status Codes and API Responses
+- Tested All Employee Payroll App Endpoints
+
+#### Employee Payroll App
+- Completed the Employee Payroll App Backend
+- Implemented Employee and Department Management
+- Implemented CRUD Operations
+- Implemented Pagination
+- Implemented Sorting (ASC / DESC)
+- Implemented Query by Example (QBE)
+- Implemented Validation and Exception Handling
+- Tested all endpoints using Swagger and Postman
+
+🔗 **Code Link:**  
+👉 [Day 12 – Logging & Swagger - Employee Payroll App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-12)
+
+---
+
+## 📅 Day 13
+**Date:** 18-Aug-2026
+
+### Topics Covered
+- Spring Boot Recap
+- Spring Security Fundamentals
+- Authentication and Authorization
+- JWT (JSON Web Token)
+- Token-Based Authentication
+- Secure REST APIs
+
+### Practical
+Started the **Fundoo Notes App** and implemented the **User Management Module** using **Spring Boot, Spring Security, and JWT Authentication**.
+
+#### Spring Security
+- Recapped Spring Boot Fundamentals
+- Understood Spring Security Architecture
+- Learned Authentication and Authorization
+- Configured Spring Security for REST APIs
+- Secured Application Endpoints
+
+#### JWT Authentication
+- Understood JWT and Token-Based Authentication
+- Generated JWT Tokens after Successful Login
+- Validated JWT Tokens for Secured Requests
+- Configured JWT Authentication Filter
+- Used JWT to maintain Stateless Authentication
+
+#### Fundoo Notes App
+- Started the Fundoo Notes Application
+- Implemented User Management Module
+- Implemented User Registration
+- Implemented User Login
+- Implemented Password Recovery
+- Secured User APIs using Spring Security and JWT
+- Tested Authentication APIs
+
+🔗 **Code Link:**  
+👉 [Day 13 – Spring Security, JWT & Fundoo Notes App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-13)
+
+---
+
 
 
 
