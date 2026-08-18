@@ -477,3 +477,47 @@ Completed the **Employee Payroll App** using Spring Boot and tested all REST API
 
 🔗 **Code Link:**  
 👉 [Day 12 – Logging & Swagger - Employee Payroll App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-12)
+
+---
+
+## 📅 Day 13
+**Date:** 18-Aug-2026
+
+### Topics Covered
+- Spring Boot Recap
+- Spring Security Fundamentals
+- Authentication and Authorization
+- JWT (JSON Web Token)
+- Token-Based Authentication
+- Secure REST APIs
+
+### Practical
+Started the **Fundoo Notes App** and implemented the **User Management Module** using **Spring Boot, Spring Security, and JWT Authentication**.
+
+#### Spring Security
+- Recapped Spring Boot Fundamentals
+- Understood Spring Security Architecture
+- Learned Authentication and Authorization
+- Configured Spring Security for REST APIs
+- Secured Application Endpoints
+
+#### JWT Authentication
+- Understood JWT and Token-Based Authentication
+- Generated JWT Tokens after Successful Login
+- Validated JWT Tokens for Secured Requests
+- Configured JWT Authentication Filter
+- Used JWT to maintain Stateless Authentication
+
+#### Fundoo Notes App
+- Started the Fundoo Notes Application
+- Implemented User Management Module
+- Implemented User Registration
+- Implemented User Login
+- Implemented Password Recovery
+- Secured User APIs using Spring Security and JWT
+- Tested Authentication APIs
+
+🔗 **Code Link:**  
+👉 [Day 13 – Spring Security, JWT & Fundoo Notes App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-13)
+
+---
