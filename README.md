@@ -521,3 +521,54 @@ Started the **Fundoo Notes App** and implemented the **User Management Module** 
 👉 [Day 13 – Spring Security, JWT & Fundoo Notes App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-13)
 
 ---
+
+## 📅 Day 14
+**Date:** 19-Aug-2026
+
+### Topics Covered
+- JWT (JSON Web Token) Based Authentication
+- Authentication vs Authorization
+- OAuth
+- Single Sign-On (SSO)
+- Request/Response - SMD Format
+- Secure API Communication
+
+### Practical
+Completed the **Authentication & Authorization Module** of the **Fundoo Notes App** and started the **Notes Management Module** with create and delete note functionality.
+
+#### JWT Authentication
+- Implemented JWT-Based Authentication
+- Generated and Validated JWT Tokens
+- Secured REST API Endpoints using JWT
+- Implemented Token-Based Stateless Authentication
+
+#### Authentication & Authorization
+- Understood Authentication (AuthN)
+- Understood Authorization (AuthZ)
+- Implemented Role-Based Access Control
+- Understood the difference between Authentication and Authorization
+
+#### OAuth & SSO
+- Understood OAuth Concepts
+- Learned the OAuth Authorization Flow
+- Understood Single Sign-On (SSO)
+- Learned how OAuth and SSO are used for secure authentication
+
+#### Request/Response - SMD Format
+- Understood Request and Response Structure
+- Applied SMD Format for API Request/Response Handling
+- Tested API Request and Response Data
+
+#### Fundoo Notes App
+- Completed the Authentication & Authorization Module
+- Secured User APIs using Spring Security and JWT
+- Implemented Notes Management Module
+- Implemented **Create Note**
+- Implemented **Delete Note**
+- Secured Notes APIs for Authenticated Users
+- Tested Authentication, Authorization, and Notes APIs
+
+🔗 **Code Link:**  
+👉 [Day 14 – Fundoo Notes App - Note Management](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-14)
+
+---
