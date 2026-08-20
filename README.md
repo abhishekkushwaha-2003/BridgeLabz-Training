@@ -572,3 +572,59 @@ Completed the **Authentication & Authorization Module** of the **Fundoo Notes Ap
 👉 [Day 14 – Fundoo Notes App - Note Management](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-14)
 
 ---
+
+## 📅 Day 15
+**Date:** 20-Aug-2026
+
+### Topics Covered
+- Organisation-Oriented REST APIs
+- State-Based Filtering
+- Search & Filter Query Design
+- Pin, Archive & Trash Management
+- Tags / Labels Management
+- REST API Endpoint Design
+
+### Practical
+Implemented organisation and note-management features in the **Fundoo Notes App**, including **Pin, Archive, Trash, Search, Filter, and Tags/Labels** functionality.
+
+#### Organisation-Oriented REST APIs
+- Designed REST Endpoints based on Note State
+- Implemented State-Based Filtering
+- Managed Notes using different organisational states
+- Applied REST API Design Principles
+
+#### Pin / Archive / Trash Module
+- Implemented **Pin Note**
+- Implemented **Unpin Note**
+- Implemented **Archive Note**
+- Implemented **Unarchive Note**
+- Implemented **Move Note to Trash**
+- Implemented **Restore Note from Trash**
+- Implemented State-Based Note Filtering
+
+#### Search & Filter Module
+- Implemented Note Search
+- Designed Search Query Parameters
+- Implemented Filtering based on Note Attributes
+- Combined Search and Filter Operations
+- Tested Search and Filter REST APIs
+
+#### Tags / Labels Management
+- Created Tags / Labels
+- Added Tags to Notes
+- Removed Tags from Notes
+- Retrieved Notes based on Tags / Labels
+- Managed Tag-Based Note Filtering
+
+#### Fundoo Notes App
+- Enhanced the Notes Management Module
+- Added Pin / Archive / Trash functionality
+- Added Search & Filter functionality
+- Added Tags / Labels Management
+- Secured the new APIs using JWT Authentication and Authorization
+- Tested all newly implemented REST endpoints
+
+🔗 **Code Link:**  
+👉 [Day 15 – Fundoo Notes App - Pin, Archive, Trash, Search & Tags](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-15)
+
+---
