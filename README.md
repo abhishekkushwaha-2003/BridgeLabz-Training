@@ -628,3 +628,46 @@ Implemented organisation and note-management features in the **Fundoo Notes App*
 👉 [Day 15 – Fundoo Notes App - Pin, Archive, Trash, Search & Tags](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-15)
 
 ---
+
+## 📅 Day 16
+**Date:** 21-Aug-2026
+
+### Topics Covered
+- JMS (Java Message Service)
+- Asynchronous Messaging
+- Non-Blocking Background Processing
+- Redis Caching
+- Token Caching
+- Authorization Performance Optimization
+
+### Practical
+Implemented **JMS-based asynchronous messaging** and **Redis token caching** in the **Fundoo Notes App**.
+
+#### JMS (Java Message Service)
+- Understood Asynchronous Messaging
+- Learned Non-Blocking Background Processing
+- Configured JMS Messaging
+- Created Message Producer and Consumer
+- Implemented Background Message Processing
+- Used JMS for Reminder and Notification Processing
+
+#### Redis Caching
+- Integrated Redis with the Spring Boot Application
+- Understood Caching Concepts
+- Implemented JWT Token Caching using Redis
+- Stored Authentication Tokens in Redis
+- Retrieved Cached Tokens for Authorization
+- Improved Authorization Performance using Token Caching
+
+#### Fundoo Notes App
+- Implemented **Reminder & Notification Module**
+- Used JMS for Asynchronous Reminder Processing
+- Used JMS for Background Notification Processing
+- Implemented **JWT Token Caching using Redis**
+- Integrated Redis with the Authentication/Authorization Flow
+- Tested JMS Messaging and Redis Caching Functionality
+
+🔗 **Code Link:**  
+👉 [Day 16 – JMS & Redis Caching - Fundoo Notes App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-16)
+
+---
