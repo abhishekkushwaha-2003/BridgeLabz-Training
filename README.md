@@ -671,3 +671,43 @@ Implemented **JMS-based asynchronous messaging** and **Redis token caching** in 
 👉 [Day 16 – JMS & Redis Caching - Fundoo Notes App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-16)
 
 ---
+
+## 📅 Day 17
+**Date:** 24-Aug-2026
+
+### Topics Covered
+- RabbitMQ
+- Message Queuing Fundamentals
+- Asynchronous Messaging
+- Spring Batch
+- Batch Processing
+- Excel Import / Export
+- Background Processing
+
+### Practical
+Explored **RabbitMQ** for asynchronous background processing and learned **Spring Batch** for processing Excel data.
+
+#### RabbitMQ
+- Understood Message Queuing Fundamentals
+- Learned Producer, Consumer, Queue, and Exchange Concepts
+- Explored Asynchronous Message Processing
+- Configured RabbitMQ with Spring Boot
+- Explored RabbitMQ for Smooth Background Operations
+- Understood how RabbitMQ can be used for decoupling application components
+
+#### Spring Batch
+- Understood Batch Processing Concepts
+- Explored Spring Batch Architecture
+- Worked with ItemReader, ItemProcessor, and ItemWriter
+- Implemented Excel Data Import / Export
+- Processed Data in Batches
+
+#### Fundoo Notes App
+- Explored the **File Attachment Module**
+- Studied how file attachments can be associated with Notes
+- Explored RabbitMQ for Background / Asynchronous Operations
+- Applied Messaging Concepts to the Fundoo Notes App
+
+🔗 **Code Link:**  
+👉 [Day 17 – RabbitMQ & Spring Batch](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-17)
+```
