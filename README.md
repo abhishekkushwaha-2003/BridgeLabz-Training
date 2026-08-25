@@ -710,4 +710,69 @@ Explored **RabbitMQ** for asynchronous background processing and learned **Sprin
 
 🔗 **Code Link:**  
 👉 [Day 17 – RabbitMQ & Spring Batch](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-17)
-```
+
+---
+
+## 📅 Day 18
+**Date:** 25-Aug-2026
+
+### Topics Covered
+- Spring REST API Design Patterns
+- Spring Scopes
+- DTO and Entity Mapping
+- Global Exception Handling
+- Logging Best Practices
+- AOP (Aspect-Oriented Programming)
+- Introduction to Spring Cloud
+- Cross-Cutting Concerns
+
+### Practical
+Consolidated and hardened the **Fundoo Notes App Backend** by implementing better API design, centralized exception handling, logging, DTO mapping, and cross-cutting concerns.
+
+#### Spring REST API
+- Applied REST API Design Patterns
+- Improved REST Endpoint Structure
+- Reviewed Spring Bean Scopes
+- Applied appropriate HTTP Methods and Status Codes
+- Improved Request and Response Handling
+
+#### DTO & Entity Mapping
+- Created and Used DTOs for API Requests and Responses
+- Implemented DTO to Entity Mapping
+- Implemented Entity to DTO Mapping
+- Separated API Models from Database Entities
+- Improved Data Transfer and API Response Structure
+
+#### Global Exception Handling
+- Implemented Global Exception Handling
+- Used `@ControllerAdvice`
+- Used `@ExceptionHandler`
+- Created Custom Exceptions
+- Standardized Error Responses
+- Handled Validation and Application-Level Exceptions
+
+#### Logging & AOP
+- Applied Logging Best Practices
+- Added Logs for Important Application Operations
+- Understood Aspect-Oriented Programming (AOP)
+- Implemented Cross-Cutting Concerns using AOP
+- Explored Logging and Performance Monitoring using Aspects
+
+#### Spring Cloud
+- Introduction to Spring Cloud
+- Understood the Role of Spring Cloud in Distributed Applications
+- Explored Microservices and Cloud-Based Architecture Concepts
+
+#### Fundoo Notes App
+- Consolidated the Complete Fundoo Notes App Backend
+- Added Global Exception Handling
+- Improved Application Logging
+- Applied DTO and Entity Mapping
+- Added Cross-Cutting Concerns using AOP
+- Improved REST API Design and Error Responses
+- Hardened the Backend for Better Maintainability and Reliability
+
+🔗 **Code Link:**  
+👉 [Day 18 – Exception Handling, AOP - Fundoo Notes App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-18)
+
+---
