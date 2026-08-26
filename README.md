@@ -776,3 +776,50 @@ Consolidated and hardened the **Fundoo Notes App Backend** by implementing bette
 👉 [Day 18 – Exception Handling, AOP - Fundoo Notes App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-18)
 
 ---
+
+## 📅 Day 19
+**Date:** 26-Aug-2026
+
+### Topics Covered
+- Monolithic Architecture vs Microservices Architecture
+- Microservices Architecture and Trade-offs
+- Spring Boot Microservices
+- Microservice Project Structure
+- Inter-Service Communication
+- API Gateway
+- API Gateway Routing
+
+### Practical
+Started decomposing the **Fundoo Notes App** from a monolithic architecture into **microservices** and began separating the **User Management** and **Authentication** modules.
+
+#### Monolith vs Microservices
+- Understood Monolithic Architecture
+- Understood Microservices Architecture
+- Compared Monolith and Microservices
+- Learned Advantages and Disadvantages of Both Architectures
+- Understood Scalability, Maintainability, and Deployment Trade-offs
+
+#### Spring Boot Microservices
+- Understood Spring Boot Microservice Structure
+- Created the Initial Microservice Project Structure
+- Explored Inter-Service Communication
+- Understood Independent Service Deployment
+- Learned the Role of Each Microservice
+
+#### API Gateway
+- Understood the Purpose of an API Gateway
+- Learned Request Routing through API Gateway
+- Explored Centralized Entry Point for Microservices
+- Understood how API Gateway communicates with Backend Services
+
+#### Fundoo Notes App
+- Started Decomposing the Fundoo Notes App into Microservices
+- Separated **User Management** functionality
+- Separated **Authentication** functionality
+- Started developing independent User Management and Auth Services
+- Prepared the application for Microservices Architecture
+
+🔗 **Code Link:**  
+👉 [Day 19 – Microservices - Fundoo Notes App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-19)
+
+---
