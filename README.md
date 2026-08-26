@@ -1933,7 +1933,200 @@ Implemented organisation and note-management features in the **Fundoo Notes App*
 👉 [Day 15 – Fundoo Notes App - Pin, Archive, Trash, Search & Tags](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-15)
 
 ---
+## 📅 Day 16
+**Date:** 21-Aug-2026
 
+### Topics Covered
+- JMS (Java Message Service)
+- Asynchronous Messaging
+- Non-Blocking Background Processing
+- Redis Caching
+- Token Caching
+- Authorization Performance Optimization
+
+### Practical
+Implemented **JMS-based asynchronous messaging** and **Redis token caching** in the **Fundoo Notes App**.
+
+#### JMS (Java Message Service)
+- Understood Asynchronous Messaging
+- Learned Non-Blocking Background Processing
+- Configured JMS Messaging
+- Created Message Producer and Consumer
+- Implemented Background Message Processing
+- Used JMS for Reminder and Notification Processing
+
+#### Redis Caching
+- Integrated Redis with the Spring Boot Application
+- Understood Caching Concepts
+- Implemented JWT Token Caching using Redis
+- Stored Authentication Tokens in Redis
+- Retrieved Cached Tokens for Authorization
+- Improved Authorization Performance using Token Caching
+
+#### Fundoo Notes App
+- Implemented **Reminder & Notification Module**
+- Used JMS for Asynchronous Reminder Processing
+- Used JMS for Background Notification Processing
+- Implemented **JWT Token Caching using Redis**
+- Integrated Redis with the Authentication/Authorization Flow
+- Tested JMS Messaging and Redis Caching Functionality
+
+🔗 **Code Link:**  
+👉 [Day 16 – JMS & Redis Caching - Fundoo Notes App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-16)
+
+---
+
+## 📅 Day 17
+**Date:** 24-Aug-2026
+
+### Topics Covered
+- RabbitMQ
+- Message Queuing Fundamentals
+- Asynchronous Messaging
+- Spring Batch
+- Batch Processing
+- Excel Import / Export
+- Background Processing
+
+### Practical
+Explored **RabbitMQ** for asynchronous background processing and learned **Spring Batch** for processing Excel data.
+
+#### RabbitMQ
+- Understood Message Queuing Fundamentals
+- Learned Producer, Consumer, Queue, and Exchange Concepts
+- Explored Asynchronous Message Processing
+- Configured RabbitMQ with Spring Boot
+- Explored RabbitMQ for Smooth Background Operations
+- Understood how RabbitMQ can be used for decoupling application components
+
+#### Spring Batch
+- Understood Batch Processing Concepts
+- Explored Spring Batch Architecture
+- Worked with ItemReader, ItemProcessor, and ItemWriter
+- Implemented Excel Data Import / Export
+- Processed Data in Batches
+
+#### Fundoo Notes App
+- Explored the **File Attachment Module**
+- Studied how file attachments can be associated with Notes
+- Explored RabbitMQ for Background / Asynchronous Operations
+- Applied Messaging Concepts to the Fundoo Notes App
+
+🔗 **Code Link:**  
+👉 [Day 17 – RabbitMQ & Spring Batch](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-17)
+
+---
+
+## 📅 Day 18
+**Date:** 25-Aug-2026
+
+### Topics Covered
+- Spring REST API Design Patterns
+- Spring Scopes
+- DTO and Entity Mapping
+- Global Exception Handling
+- Logging Best Practices
+- AOP (Aspect-Oriented Programming)
+- Introduction to Spring Cloud
+- Cross-Cutting Concerns
+
+### Practical
+Consolidated and hardened the **Fundoo Notes App Backend** by implementing better API design, centralized exception handling, logging, DTO mapping, and cross-cutting concerns.
+
+#### Spring REST API
+- Applied REST API Design Patterns
+- Improved REST Endpoint Structure
+- Reviewed Spring Bean Scopes
+- Applied appropriate HTTP Methods and Status Codes
+- Improved Request and Response Handling
+
+#### DTO & Entity Mapping
+- Created and Used DTOs for API Requests and Responses
+- Implemented DTO to Entity Mapping
+- Implemented Entity to DTO Mapping
+- Separated API Models from Database Entities
+- Improved Data Transfer and API Response Structure
+
+#### Global Exception Handling
+- Implemented Global Exception Handling
+- Used `@ControllerAdvice`
+- Used `@ExceptionHandler`
+- Created Custom Exceptions
+- Standardized Error Responses
+- Handled Validation and Application-Level Exceptions
+
+#### Logging & AOP
+- Applied Logging Best Practices
+- Added Logs for Important Application Operations
+- Understood Aspect-Oriented Programming (AOP)
+- Implemented Cross-Cutting Concerns using AOP
+- Explored Logging and Performance Monitoring using Aspects
+
+#### Spring Cloud
+- Introduction to Spring Cloud
+- Understood the Role of Spring Cloud in Distributed Applications
+- Explored Microservices and Cloud-Based Architecture Concepts
+
+#### Fundoo Notes App
+- Consolidated the Complete Fundoo Notes App Backend
+- Added Global Exception Handling
+- Improved Application Logging
+- Applied DTO and Entity Mapping
+- Added Cross-Cutting Concerns using AOP
+- Improved REST API Design and Error Responses
+- Hardened the Backend for Better Maintainability and Reliability
+
+🔗 **Code Link:**  
+👉 [Day 18 – Exception Handling, AOP - Fundoo Notes App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-18)
+
+---
+
+## 📅 Day 19
+**Date:** 26-Aug-2026
+
+### Topics Covered
+- Monolithic Architecture vs Microservices Architecture
+- Microservices Architecture and Trade-offs
+- Spring Boot Microservices
+- Microservice Project Structure
+- Inter-Service Communication
+- API Gateway
+- API Gateway Routing
+
+### Practical
+Started decomposing the **Fundoo Notes App** from a monolithic architecture into **microservices** and began separating the **User Management** and **Authentication** modules.
+
+#### Monolith vs Microservices
+- Understood Monolithic Architecture
+- Understood Microservices Architecture
+- Compared Monolith and Microservices
+- Learned Advantages and Disadvantages of Both Architectures
+- Understood Scalability, Maintainability, and Deployment Trade-offs
+
+#### Spring Boot Microservices
+- Understood Spring Boot Microservice Structure
+- Created the Initial Microservice Project Structure
+- Explored Inter-Service Communication
+- Understood Independent Service Deployment
+- Learned the Role of Each Microservice
+
+#### API Gateway
+- Understood the Purpose of an API Gateway
+- Learned Request Routing through API Gateway
+- Explored Centralized Entry Point for Microservices
+- Understood how API Gateway communicates with Backend Services
+
+#### Fundoo Notes App
+- Started Decomposing the Fundoo Notes App into Microservices
+- Separated **User Management** functionality
+- Separated **Authentication** functionality
+- Started developing independent User Management and Auth Services
+- Prepared the application for Microservices Architecture
+
+🔗 **Code Link:**  
+👉 [Day 19 – Microservices - Fundoo Notes App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-19)
+
+---
 
 
 
