@@ -823,3 +823,55 @@ Started decomposing the **Fundoo Notes App** from a monolithic architecture into
 👉 [Day 19 – Microservices - Fundoo Notes App](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-19)
 
 ---
+
+## 📅 Day 20
+**Date:** 27-Aug-2026
+
+### Topics Covered
+- Service Registry with Eureka
+- Service Discovery
+- Microservices Architecture Consolidation
+- Inter-Service Communication
+- Microservices-Based Application Design
+
+### Practical
+Completed the **Fundoo Notes Microservices Application** by implementing service discovery with **Eureka** and adding the required microservices for Notes, Export, and Reminder functionality.
+
+#### Eureka Service Registry
+- Configured **Eureka Server**
+- Registered Microservices with Eureka
+- Implemented Service Discovery
+- Understood Dynamic Service Registration
+- Enabled Microservices to discover and communicate with each other
+
+#### Fundoo Notes Microservices
+- Completed **User Management Service**
+- Completed **Authentication & Authorization Service**
+- Added **Notes Service**
+- Added **Export Service**
+- Added **Reminder Service**
+- Implemented **Search & Filter** functionality
+- Implemented **Tags / Labels Management**
+- Implemented **Reminder & Notification** functionality
+- Configured Inter-Service Communication
+
+#### Microservices Architecture
+- Consolidated Microservices Architecture Concepts
+- Understood Service Registry and Service Discovery
+- Applied Independent Service Architecture
+- Integrated Multiple Microservices
+- Improved Service-to-Service Communication
+- Organized the Fundoo Notes application into independent services
+
+#### Fundoo Notes App
+- Completed the Microservices-Based Fundoo Notes Application
+- Added `notes-service`
+- Added `export-service`
+- Added `reminder-service`
+- Integrated Eureka Service Discovery
+- Connected Microservices through service discovery
+- Tested the complete application flow
+- Demonstrated the completed Microservices-Based Fundoo Notes Application
+
+🔗 **Code Link:**  
+👉 [Day 20 – Fundoo Notes App - Microservices](https://github.com/abhishekkushwaha-2003/BridgeLabz-Training/tree/Refresher-Training/Day-20)
